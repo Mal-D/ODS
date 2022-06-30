@@ -1,0 +1,54 @@
+{
+    "ID" : "faction_boneyardWranglers",
+    "Name" : "boneyardWranglers",
+    "ShortName" : "Wranglers",
+    "Description" : "This scrappy bunch are the decendants of a famed scrapyard crew that returned discarded, broken and long forgotten warbirds of Terran 21st Centuary, like A8-272, to the skys.  Likewise, the same as 'Crew 5 & Dave' before them, they ferretted amongst the Tech graveyards across the Innersphere to return broken and long discarded 'Mechs to the battlefield. Their 'Mechs might look like they are held together with fencing wire and cocky poo - disregard at your peril.",
+    "Demonym" : "Wranglers",
+    "Government" : "",
+    "Allies" :  [
+        "AuriganPirates",
+        "Locals",
+        "SilentChapter",
+        "hookwormsHighwaymen"
+                ],
+    "Enemies" : [
+		"Liao",
+		"Davion",
+		"Steiner",
+		"Marik",
+		"Kurita",
+        "AuriganRestoration",
+        "AuriganDirectorate"
+    ],
+	"Presence": 0.1,
+    "ReputationStatements" : [
+        "Delivered - She's all yours Mate."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Struth Mate, bottler of a battle! My shout when we get back. Bundy or XXXX?"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"Just pulled that one out of your arse did'nt you?"
+    ],
+	"BadFaithFailureStatements" : [ 
+		"So smartarse not the piece of piss you made it out to be hey! - bloody galah!"
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_carsonD",
+    "DefaultRepresentativeCastDefId" : "castDef_carsonD",
+    "DataManager" : null,
+    "factionID" : "boneyardWranglers",
+  	"icon" : "uixTxrLogo_Boney",
+    "heraldryDefId" : "heraldrydef_boneyardWranglers",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

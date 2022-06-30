@@ -1,0 +1,6 @@
+{
+   "identifier" : "DiaBkt_ODS2_1_MissionFailure",
+   "DialogueContentIDs" : [
+		"ConvBkt_ODS2_1_MissionFailure" 
+   ]
+}

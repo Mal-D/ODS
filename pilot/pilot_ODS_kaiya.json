@@ -1,0 +1,56 @@
+{
+    "Description": {
+        "Id": "pilot_ODS_kaiya",
+        "Name": "kaiyaS",
+        "FirstName": "Kaiya",
+        "LastName": "Saul",
+        "Callsign": "Spear",
+        "Gender": "Male",
+        "factionID": "boneyardWranglers",
+        "Age": 30,
+        "Details": "Older brother of Djalu and Carson's XO. Pilots a venerable CRD-3L Crusader.",
+        "Icon": "guiTxrPort_kaiya"
+    },
+    "BaseGunnery": "6",
+    "BonusGunnery": 0,
+    "BasePiloting": "7",
+    "BonusPiloting": 0,
+    "BaseGuts": "8",
+    "BonusGuts": 0,
+    "BaseTactics": "5",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 0,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 3,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "m_ermy01",
+    "abilityDefNames": [
+		"TraitDefUnsteadySet60",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"TraitDefHealthAddOne",
+		"TraitDefRefireReduceOne",
+		"TraitDefOverheatAddFifteen",
+		"TraitDefHealthAddTwo",
+		"TraitDefRefireReduceTwo",
+		"AbilityDefGu5",
+		"AbilityDefGu8",
+		"AbilityDefP5"
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "pilot_npc_brawler",
+            "pilot_npc_dynamic",
+            "pilot_npc_d8",
+            "BLACKLISTED",
+            "name_kaiyaS"
+
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0
+}

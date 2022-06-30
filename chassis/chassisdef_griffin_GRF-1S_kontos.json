@@ -1,0 +1,216 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 4220640, 
+        "Rarity": 2, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Kontos", 
+        "Id": "chassisdef_griffin_GRF-1S_kontos", 
+        "Name": "Kontos", 
+        "Details": "While 'Kontos' is a Griffin 1S and mounts closer-range weaponry than its 1N cousin, this one seems to be a little beefier than normal. Kontos's lower legs, feet and fists appear to be intentionally unpainted.", 
+        "Icon": "uixTxrIcon_griffin"
+    }, 
+    "VariantName": "GRF-1S(K)", 
+    "ChassisTags": {
+        "items": [
+            "ArmourBaffleSystem", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "StockRole": "Striker & Skirmisher", 
+    "YangsThoughts": "Oooh, now this is a Griffin to be wary of. The Laser array is lethal as close range and would you look at those arms and legs!", 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_griffin", 
+    "PrefabIdentifier": "chrPrfMech_griffinBase-001", 
+    "PrefabBase": "griffin", 
+    "Tonnage": 55, 
+    "InitialTonnage": 5.5, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 11088000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 80, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 7, 
+    "Stability": 130, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 5, 
+    "PunchesWithLeftArm": true, 
+    "MeleeDamage": 60, 
+    "MeleeInstability": 50, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 80, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 30, 
+    "DFAInstability": 30, 
+    "MechPartMax": 0, 
+    "MechPartCount": 0, 
+    "EngageRangeModifier": 0, 
+    "AlwaysPunchIfPossible": false, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 90, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 45
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": 65, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": 65, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 90, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 45
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 65
+        }
+    ], 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 4, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 15, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 4, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 5, 
+            "z": 0
+        }
+    ]
+}

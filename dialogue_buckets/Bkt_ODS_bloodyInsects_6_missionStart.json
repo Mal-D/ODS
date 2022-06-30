@@ -1,0 +1,101 @@
+{
+    "identifier" : "Bkt_ODS_bloodyInsects_6_missionStart",
+    "contents" : [
+{
+    "words" : "Hey, Darius. Seems like the turrets are still offline.",
+    "wordsColor" : {
+        "r" : 1,
+        "g" : 1,
+        "b" : 1,
+        "a" : 1
+    },
+    "selectedCastDefId" : "castDef_SumireDefault",
+    "emote" : "Default",
+    "audioName" : "NONE",
+    "cameraFocusGuid" : "",
+    "cameraDistance" : "Far",
+    "cameraHeight" : "Default",
+    "revealRadius" : -1
+},
+{
+    "words" : "They should be online. Why?",
+    "wordsColor" : {
+        "r" : 1,
+        "g" : 1,
+        "b" : 1,
+        "a" : 1
+    },
+    "selectedCastDefId" : "castDef_DariusDefault",
+    "emote" : "Default",
+    "audioName" : "NONE",
+    "cameraFocusGuid" : "",
+    "cameraDistance" : "Far",
+    "cameraHeight" : "Default",
+    "revealRadius" : -1
+},
+{
+    "words" : "I'm not seeing any turret power signatures coming from the facility.",
+    "wordsColor" : {
+        "r" : 1,
+        "g" : 1,
+        "b" : 1,
+        "a" : 1
+    },
+    "selectedCastDefId" : "castDef_SumireDefault",
+    "emote" : "Default",
+    "audioName" : "NONE",
+    "cameraFocusGuid" : "",
+    "cameraDistance" : "Far",
+    "cameraHeight" : "Default",
+    "revealRadius" : -1
+},
+{
+    "words" : "Smith, where are the turrets you promised.",
+    "wordsColor" : {
+        "r" : 1,
+        "g" : 1,
+        "b" : 1,
+        "a" : 1
+    },
+    "selectedCastDefId" : "castDef_DariusDefault",
+    "emote" : "Default",
+    "audioName" : "NONE",
+    "cameraFocusGuid" : "",
+    "cameraDistance" : "Far",
+    "cameraHeight" : "Default",
+    "revealRadius" : -1
+},
+{
+    "words" : "The technicians are moaning something about pay and conditions. Mr Jones is 'in negotiations' so, in the meantime Commander, keep the enemy away from that base.",
+    "wordsColor" : {
+        "r" : 1,
+        "g" : 1,
+        "b" : 1,
+        "a" : 1
+    },
+    "selectedCastDefId" : "castDef_CabalD",
+    "emote" : "Default",
+    "audioName" : "NONE",
+    "cameraFocusGuid" : "",
+    "cameraDistance" : "Far",
+    "cameraHeight" : "Default",
+    "revealRadius" : -1
+},
+{
+    "words" : "Make it quick. These things are not going wait while you sort out your industrial relations.",
+    "wordsColor" : {
+        "r" : 1,
+        "g" : 1,
+        "b" : 1,
+        "a" : 1
+    },
+    "selectedCastDefId" : "castDef_DariusDefault",
+    "emote" : "Default",
+    "audioName" : "NONE",
+    "cameraFocusGuid" : "",
+    "cameraDistance" : "Far",
+    "cameraHeight" : "Default",
+    "revealRadius" : -1
+}
+    ]
+}

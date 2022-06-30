@@ -1,0 +1,165 @@
+{
+    "identifier" : "Bkt_ODS_bloodyInsects_6_APC_good",
+    "contents" : [
+        {
+            "words" : "Mr Jones was partially successful in his 'negotiations' and persuaded some of them to choose between him or them - some... made the wrong choice.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_CabalD",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Argo, the technicians have come to a better understanding of the situation and are powering two turrets up now. The APCs have been urged to scatter and provide what support the missing turrets would otherwise provided.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_scEnforcerDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "3560382a-c082-4a0b-8cab-8e6327b74cce",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Smith, maybe your 'Enforcer' might be better used helping defend your buildings - instead of scaring your people witless.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_DariusDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "3560382a-c082-4a0b-8cab-8e6327b74cce",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Mr Olivera, The others won't be online. The technicians are going to hold out in the Turret Buildings and are refusing to budge. If the turrets are destroyed, they die... their choice.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_CabalD",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+            },
+            {
+                "words" : "What in blazes did you say to them make them act in that way? Don't you value your Technicians? They're a dwindling resource out here if you hadn't noticed.",
+                "wordsColor" : {
+                    "r" : 1,
+                    "g" : 1,
+                    "b" : 1,
+                    "a" : 1
+                },
+                "selectedCastDefId" : "castDef_DariusDefault",
+                "emote" : "Default",
+                "audioName" : "NONE",
+                "cameraFocusGuid" : "",
+                "cameraDistance" : "Far",
+                "cameraHeight" : "Default",
+                "revealRadius" : -1
+            },
+            {
+                "words" : "Mr Olivera, they all signed on and took payments for work but when things got a bit 'hairy' they thought they'd jack up their perceived importance to the Silent Chapter.",
+                "wordsColor" : {
+                    "r" : 1,
+                    "g" : 1,
+                    "b" : 1,
+                    "a" : 1
+                },
+                "selectedCastDefId" : "castDef_CabalD",
+                "emote" : "Default",
+                "audioName" : "NONE",
+                "cameraFocusGuid" : "",
+                "cameraDistance" : "Far",
+                "cameraHeight" : "Default",
+                "revealRadius" : -1
+                },
+                {
+                "words" : "Mr Jones managed to convice the others of what values and behaviours the 'Silent Chapter' expect and dissension in the ranks is not one of them.",
+                "wordsColor" : {
+                    "r" : 1,
+                    "g" : 1,
+                    "b" : 1,
+                    "a" : 1
+                },
+                "selectedCastDefId" : "castDef_CabalD",
+                "emote" : "Default",
+                "audioName" : "NONE",
+                "cameraFocusGuid" : "",
+                "cameraDistance" : "Far",
+                "cameraHeight" : "Default",
+                "revealRadius" : -1
+            },
+		    {
+            "words" : "All Stick and no carrot! Not a good way to encourage loyality Mr. Smith. I'd be careful.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+           "selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "Even I, have to answer to a higher authority and he is <i>Very</i> concerned about the situation here. The situation required an example.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_CabalD",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+            "words" : "Commander {Commander.LastName}, Looks like we have to 'Mother Hen' these APC's a little longer. Maybe we can save a few of these unfortunate 'Employees' from perishing.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			}
+    ]
+}

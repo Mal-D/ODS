@@ -1,0 +1,57 @@
+{
+    "Description": {
+        "Id": "pilot_ODS_darleen",
+        "Name": "darleenD",
+        "FirstName": "Darleen",
+        "LastName": "Daut'rieve",
+        "Callsign": "Missus",
+        "Gender": "Female",
+        "factionID": "boneyardWranglers",
+        "Age": 26,
+        "Details": "No one messes with Darleen and her GRF-2N. The real boss of the Wranglers 'cos Carson recognises her organisational experties and wouldn't have it any other way.",
+        "Icon": "guiTxrPort_darleenD_p"
+    },
+    "BaseGunnery": "7",
+    "BonusGunnery": 0,
+    "BasePiloting": "6",
+    "BonusPiloting": 0,
+    "BaseGuts": "5",
+    "BonusGuts": 0,
+    "BaseTactics": "9",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 0,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 3,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "f_overload01",
+    "abilityDefNames": [
+		"TraitDefUnsteadySet60",
+		"TraitDefEvasiveChargeAddOne",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"TraitDefCalledShotImprove",
+		"TraitDefIndirectReduceTwo",
+		"TraitDefMinRangeReduce90",
+		"TraitDefCalledShotMaster",
+		"TraitDefHealthAddOne",
+		"TraitDefRefireReduceOne",
+		"AbilityDefT5A",
+		"AbilityDefT8A",
+		"AbilityDefP5"
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "pilot_npc_scout",
+            "pilot_npc_dynamic",
+            "pilot_npc_d9",
+            "name_darleenD",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0
+}

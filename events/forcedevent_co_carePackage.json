@@ -1,0 +1,180 @@
+{
+    "Description" : {
+        "Id" : "forcedevent_co_carePackage",
+        "Name" : "A Mysterous Care Package",
+        "Details" : "Yang plonks down next to you in the mess. \"Boss, there is something really weird happening around here.\" He looks nervously around and then pushes a piece of crumpled paper at you. \"I found this note next to the JumpShip Docking Ring hatch.\"\r\n\r\nA shiver of foreboding trckles down your spine as you read it.\r\n\r\n<i>Check your cargo hold</i>\r\n\r\nYang doesn't scare easily but his face showed a mixture of concern and terror. He contiues nervously, \"I don't know how they managed to get in here undetected! That's not all...come with me.\"",
+        "Icon" : "uixTxrSpot_YvonnesCrates.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Follow Yang to the Hold",
+                "Details" : "Care Package",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [
+                            "ev_ODS_val_yes"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Into the cargo hold",
+                        "Details" : "Yang reaches up and slaps the panel for the overhead lights to reveal a collection of crates and .\r\n\r\n\"And this,\" as he passes you another note, \"was taped to the big long crate over there.\"\r\n\r\n\"<i>Smith knows about the money Val transferred. Smith was so eager to get Val off McEvan's Sacrifice that he left some very interesting salvage behind. He knows nothing of this. - N. \"</i>\r\n\r\nYang continues,\"This must have been transferred during the last FK recharge cycle but, how would they get this in here without me or you knowing? I've swept them for the usual  tracers and bugs and... nothing. It's not a coincidence that Pernik has only just been added to our itinary by our 'travel agent'. The contents of this 'care package' is eerily  fortuitous.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_ShowRewards",
+                                    "value" : "itemCollection_loot_carePackage",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Follow Yang to the Hold",
+                "Details" : "Care Package",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [
+                            "ev_ODS_smith_yes"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Into the cargo hold",
+                        "Details" : "Yang reaches up and slaps the the overhead lights to reveal a collection of crates. \"And this,\" as he passes you another note and points, \"was taped to the big long crate over there.\"\r\n\r\n\"<i>Commander {Commander.LastName}, I know about the money Val transferred. I'll just consider it an advance on your fees. Not all the salvage from McEvan's Sacrifice was yours for the taking and I managed to appropriate some every interesting equipment. I suggest you make some use of it. - S. \"</i>\r\n\r\nYang continues,\"This must have been transferred during the last FK recharge cycle but, how would they get this in here without me or you knowing? I've swept them for the usual  tracers and bugs and... nothing. It's not a coincidence that Pernik has only just been added to our itinary by our 'travel agent'. The contents of this 'care package' is eerily  fortuitous.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_ShowRewards",
+                                    "value" : "itemCollection_loot_carePackage2",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "UNPUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "identifier" : "Bkt_ODS_bloodyInsects_7_missionStart",
+    "contents" : [
+		{
+			"words" : "Oh, great landing Co-ords. You'd think Smith could have given us a bit of cover...but no...It's the middle of a bloody dust bowl. This is not a good place Commander!",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+		"words" : "We're going to need a full set of actuator dampener replacments with all these Pod-Drops.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_YangDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+		"revealRadius" : -1
+		},
+		{
+			"words" : "It's either that or put the <i>Leopard</i> at greater risk. Commander, expect enemy reinforcements - a crap ton of them!",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+			"words" : "They are really chucking everything at us. It's going to be like 'Metal rain' down there. We have high orbit DropPods from the [[DM.BaseDescriptionDefs[LoreProtectorate],Protectorate]] and... one unknown.",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_FarahDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+            "words" : "We're here for the long haul people and when all Proctorate 'Mechs are disabled or destroyed then Sumire will coordinate the extraction procedures.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+	    "selectedCastDefId" : "castDef_DariusDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+		},
+        {
+		"words" : "I have diverted what forces I can from my stores complex seeing as it is secure... for now. I would appreciate it if you could make sure some of them survive.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_CabalD",
+		"emote" : "Default",
+		"audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+        },
+		{
+		"words": "INCOMMING TRANSMISSION - SECURITY PERIMETER BREACHED",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_Computer",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words": "zzzzzt.. 'frail' meatbags ar$% not wor##hy of the #$%ter's attenti*&%. sszzzhhhhhttt...",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_zombieLord",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words" : "What...? How...? Boss, it nealy made it through that time - the polymophic encryption algorithim is at it's limit. Let's wrap this up ASAP as I can't guarantee I can keep them out for too much longer.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_FarahDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+	},
+	{
+		"words": "zzzzzt.. #@is is wher$ $%you expire meatba$%zzzz ^&$$^%#not wor##hy of the #$%ter's attenti*&%. I wil$ bury&^%^%nder a wav^& o$ meta%&^ /// COMMUNICATION TERMINATED /// ",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_zombieLord",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words" : "Crapshoots Commander. Someone's coming through on the Dediacated Command Channel. That's our reserved Command channel and noboby outside our command crew knows that exists except...",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_FarahDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+	},
+	{
+		"words" : "By the authority of the High Lady of the Aurigan Coalition there are 'misappropriated' BattleMechs being used in this conflict. CEASE and DESIST and power down your 'Mechs.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_rositaS",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+	},
+	{
+		"words" : "Anyone except her...",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_FarahDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+	},
+	{
+		"words" : "Yeah - I was wondering when they would get round to attempting their 'Collection activities' regarding this DropShip and it's contents. Seems we're not quite done with the Arano Restoration just yet.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_YangDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+	}
+    ]
+}

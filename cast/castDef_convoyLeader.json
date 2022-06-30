@@ -1,0 +1,23 @@
+{
+   "id" : "castDef_convoyLeader",
+   "internalName" : "convoyLeader",
+   "firstName" : "Troy",
+   "lastName" : "",
+   "callsign" : "Convoy One",
+   "rank" : "Leader",
+   "gender" : "Male",
+   "faction" : "",
+   "sgCharType" : "UNSET",
+   "showRank" : true,
+   "showFirstName" : true,
+   "showCallsign" : true,
+   "showLastName" : false,
+   "localizeName" : false,
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../mods/Campaign - Operation Deep Strike/sprites/Portraits/guiTxrPort_convoyLeader.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

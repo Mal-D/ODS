@@ -1,0 +1,210 @@
+{
+    "Description" : {
+        "Id" : "forcedevent_co_take_smiths_call",
+        "Name" : "Taking Smith's Call",
+        "Details" : "Smith's image once more flickers in the Hologram veiwing area.\r\n\r\n\"Damned Commstar message prioity system, Never mind Commander {Commander.LastName}. I have two issues that I need direct your attention to. Firstly, The companies I have garrisoning Pernik has been besieged by swarms of these Manei Atrocis altered 'Mechs and MechWarriors.\r\n\r\nWe're holding them off for now but, my Units are running out of time and supplies. I know we didn't part on very amicable terms however, I would see it as a personal favour should you respond.",
+        "Icon" : "uixTxrSpot_SmithsTransmission.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Continue Smith's Message",
+                "Details" : "(1)",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : [
+                            "ev_ODS_val_yes"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "The message continues",
+                        "Details" : "Read reciepts are a wonderful thing and I know you are reading this before Valvaren's message. Which bring me to the second issue. Unfortunately our Miss Black has not only been digging into things that were best not dug into, and unfortunately, she has only part of the information and it will only lead to opening old wounds.\r\n\r\nMy 'Highwaymen' are in danger of being destroyed and with them a good proportion of the technical innovations I and my scientists have uncovered. \r\n\r\nI appreciate it will take some time for you to get there but please don't fluff around. The team's Commander, Yvonne Hades has more and she will be running point on this until I get there.\r\n\r\nBonne chance Commander {Commander.LastName}",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "co_release_ODS"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "1500000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : [
+                                {
+                                    "Type" : "System_AddFlashpoint",
+                                    "value" : "fp_ODS_1_bloodyInsects",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        "starsystemdef_Pernik"
+                                    ]
+                                },
+                                {
+                                    "Type" : "System_ForceDropshipRoom",
+                                    "value" : "Ship",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        null
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" : [
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "forcedevent_co_take_vals_call",
+                                    "MinDaysWait" : 1,
+                                    "MaxDaysWait" : 1,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                },
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "forcedevent_co_carePackage",
+                                    "MinDaysWait" : 10,
+                                    "MaxDaysWait" : 20,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Smith knows you took Val's Message",
+                "Details" : "(2)",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : [
+                            "ev_ODS_smith_yes"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Send the Message",
+                        "Details" : "I would have expected nothing less from you, taking Valvaren's call first and I assume by that, you are on you way? Poor lass doesn't have a moments rest with all the testing of her 'implants'.\r\n\r\nRegardless Commander {Commander.LastName}, I wouldn't like to see any further tragedy befall her family. The second issue is that I'm assuming she told you of the massacre on Bellerophon. She has some of the information but not all. Don't make judgements of half the details.\r\n\r\nPernik is a hot, dusty little planet on the edge of Marik space. \r\n\r\nMake all haste Commander {Commander.LastName} but, make sure you use the funds Miss Black 'misappropriated' wisely.\r\n\r\nCome to Pernik and we'll have the rest of this conversation. However, there is much work to be done before that can happen.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "identifier" : "ConvBkt_ODS2_1_MissionStart",
+    "contents" : [
+		{
+			"words" : "We're in luck Commander. The Carvel have not beefed up security and have only assigned a light escort for the vehicles.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_geneviveN",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "Commander, I suggest you split your forces. Some to deal with their escorts and remainder to round up the vehicles.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "cb50e1e4-aa0c-49b2-bd2e-5339c78dafb5",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "ECM DropPods are ready - there will be enough radio interference to disrupt their comms. Though, they will know that something is not right.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_FarahDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "cb50e1e4-aa0c-49b2-bd2e-5339c78dafb5",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "But too late do do anything about it. Once the Escorts are disabled and we have the vehicles, we just need to get them away from extraction zone in one piece.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "",
+			"cameraFocusGuid" : "76b654a6-4f2c-4a6f-86e6-d4cf868335fe",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "I'm happy to deal with the Escorts Commander.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_geneviveN",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "When the escorts are disabled we'll assume their role. I don't think the Vehicles like operating in a vacuum.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "",
+			"cameraFocusGuid" : "76b654a6-4f2c-4a6f-86e6-d4cf868335fe",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "We are getting very accomplished with these fast Combat Drops and dust-offs. This will be a bumpy ride. Evac point is marked Commander.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_SumireDefault",
+			"emote" : "Default",
+			"audioName" : "",
+			"cameraFocusGuid" : "a85da736-7a2e-4cc6-aff3-feb9d73fc7e1",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		}
+    ]
+}

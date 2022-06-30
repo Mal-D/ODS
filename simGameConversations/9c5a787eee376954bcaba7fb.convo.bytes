@@ -1,0 +1,260 @@
+
+
+9c5a787eee376954bcaba7fbODS_BloodyInsects_Convo1'
+
+9c87cd73ffe412e5a517b7aeˇˇˇˇˇˇˇˇˇ'
+
+9c61b76680bb2dfbc35c6304ˇˇˇˇˇˇˇˇˇŸ
+
+9cdebdab0214a4a129370620"›We're here finally! Seeing as Smith and Valvaren seem to be a little at odds with each other, I wonder which side of the story we should believe.  Smith has a nasty habit in keeping details to himself until it's too late.*  (:
+9c4f7d6a86f096d918b3dfedb
+DariusDefault¢§
+J
+Set BattleTech Fade3*1
+Get Preset Value (int)"SimGameFadeValues
+.
+Set BattleTech Viewscreen Image"	screenoff
+&
+Set BattleTech Camera Lock"DARIUS©
+
+9c2b4bd6d605846254a14c83"/And Val has the propensity to embellish a tad. *  (:
+9cb975065ae249ff1153b875b
+YangDefault¢&
+$
+Set BattleTech Camera Lock"YANG±
+
+9c53cb472dfaaf617b52a1f7"¥The last time we took Smith's account of events we ended up earning the ire of this <i>Protectorate</i> and <i>The Master</i>, both of which seemed hell bent on recovering Valvaren. And there was definitely something creepy about the so called <i>First Mistress</i>. Who's to say there aren't more like her?
+*  (:
+9c3c6efceac40944028270d7b
+FarahDefault¢'
+%
+Set BattleTech Camera Lock"FARAHÍ
+
+9caab3a960378388dceb92ac"lAnd what about that Thaddeus character? If Smith is correct, we have earnt a place in his bad books as well.*  (:
+9c0636659e8e3ee94c59b84bb
+SumireDefault¢(
+&
+Set BattleTech Camera Lock"SUMIRE'
+
+9cc4ac872d07ed5440600262ˇˇˇˇˇˇˇˇˇ'
+
+9cb1a5678fe432706bc99de1ˇˇˇˇˇˇˇˇˇ‹
+
+9c35de0f9ec0df142b3c9bcd"ôLooks like we're about to find out. Incoming transmission. Remember people, they want us and not the other way round and we still have a Company to run.
+*ñt
+r
+Evaluate Tag for Company-*+
+Get Preset Value (int)"HasOrHasNot'*%
+Tag From String"ev_ODS_smith_yes 	(:
+9c7577b9b8c73a2eec789ea8*îr
+p
+Evaluate Tag for Company-*+
+Get Preset Value (int)"HasOrHasNot%*#
+Tag From String"ev_ODS_val_yes (:
+9cdc9f7f8811545711cd99e2*4 (:
+9ccdb4720a619d6e51d2d293Újoined Convo pathb
+DariusDefault¢(
+&
+Set BattleTech Camera Lock"DARIUS®
+
+9c1105605a2331cf5f7927c4	"àCommander {Commander.LastName}, So good to see you finally made it. This place is a bit out of the way, yet these <i>Bloody Insects</i> are sticking to me worse than the fleas on a Terran hound. I am still burning inbound however, Yvonne Hades, has already been provided with the transmission authorization and Farah has the tight beam protocol. It should be all over by the time I get there.*=
+And that would be 'Nunya' ? 
+(:
+9c6f53091354b77d549a0dccb
+CabalD¢3
+1
+Set BattleTech Viewscreen Image"CabalDefaultâ
+
+9c84be72ceb108d1fc80594f
+"æCorrect Commander, and I know you may not believe it, I assure you this is not of my doing. Granted, Val is still of interest to them and, the Protectorate have tracked us halfway across the Periphery and, you and I are still on their shit list. They have been harassing my operations ever since McEvan's Sacrifice.
+
+ *A
+I'll reserve judgement on that. (:
+9cd9cbb476531918c57182f3b
+CabalD¢Z
+.
+Set BattleTech Viewscreen Image"	realSmith
+(
+Set BattleTech Camera Lock
+"HOLOGRAM‡
+
+9c67352ee2546c231dcc5ca3"≈I'm calling <i>taurus excretum</i> on that myself. Seems you have landed yourself in the middle of 'it' and being more than just a few missing 'odds and sods'. Saving your proverbial hide... again!*=
+If it quacks like a duck... (:
+9c4def7bc18aaf340b79a97bb
+YangDefault¢)
+'
+Set BattleTech Camera Lock	"DEFAULT…
+
+9cca4e9117f42fe1c4b662b9"πLook, I admit of being a little duplicitous in the past but it's not just Valvaren this time. It's my entire operation at risk. If we can pound them hard enough we should force them to withdraw and hopefully take their losses and run.  I know Val has some value to them but surely she's not <i>that</i> important.*6
+Looks like a duck... (:
+9c67483a5bcba2c1d6845628b
+CabalD¢*
+(
+Set BattleTech Camera Lock
+"HOLOGRAMá
+
+9c5f2a02d04211506c96ae68"ÁWe're in deep shit here Commander {Commander.LastName} and I don't have time to debate this.  The battle plan is short and sweet. Combat drop into their rear staging area to take out the 'tinhead' leading their forces. If necessary follow it and eliminate any others in the staging area. Oh and by the way, you will also need to rescue our infiltration team. *é
+SYou want what? That's three objectives. Any other miracle you'd like us to perform? (:
+9cc4ea3b468c847c40ce2f21ÚLoad the holomap imageb
+YvonneHades¢\
+0
+Set BattleTech Viewscreen Image"YvonneHades
+(
+Set BattleTech Camera Lock
+"HOLOGRAM'
+
+9cc4a167f7b4c32e98fddee1ˇˇˇˇˇˇˇˇˇÇ
+
+9c7c3cccd9f861fb8d45b9b0"ºCommander {Commander.LastName}, Valvaren was right about you and I know I am putting you and your company in harms way. That can't be helped. The events of late have been set in motion a long time ago, even before Solaris. Survive this and we will have an explanation.
+
+I do hope you found the 'care package' useful.*6
+Can smith hear this? (:
+9cbeabb07b99d8e49f6a04c4b
+YvonneHades¢[
+0
+Set BattleTech Viewscreen Image"YvonneHades
+'
+Set BattleTech Camera Lock	"DEFAULT◊
+
+9cc210e4a10ea16f97c9f88d"ÏNo, his DropShip is too far away to pick up this transmission but, his estimation of the situation is correct. Because of the constant harassment, we are losing 'Mechs and defenses faster than we can replace or fix them. After an evaluation of their hit and run tactics and the enemy movement information, we think that we can take the steam out of their attacks. *9
+And Val... is she safe? (:
+9c404618031f33340321f963b
+YvonneHadesÀ
+
+9c50e9f549c02a74e52259b0"˘She is safe enough in our main compound but you will need to fight your way through to keep her that way.  Smith has another unit here as well - [[DM.BaseDescriptionDefs[LoreBoneyardWranglers],The Boneyard Wranglers]] - but they are too spread out to help us at the moment. You are going to have to watch out for them. I don't want to lose any by accident, they're good people.*  (:
+9ca3a0ed0b008f494839c5e1b
+YvonneHades 
+
+9ccd47d794ea60f8350ffa33"ÙIt's getting crowded down there. As long as they don't get in the road. Any and all help is going to be useful but, we can't take any responsibility if they wander into the AO unannounced.  Would be nice to not get us confused with the enemy.
+ *" (:
+9c9b9749e495af4e88ff6cc4Pb
+DariusDefault´
+
+9cf6addac5e1da11aa5b83c9"òHey Smithy, she seems to me to be important enough for them to follow you halfway across the Galaxy. Would say she is very important - to them at least?*8
+Waddles like a duck... (:
+9cf654fabc93f4dfb69888acb
+YangDefault¢&
+$
+Set BattleTech Camera Lock"YANG›
+
+9cdfa6fe25f69f7ed99c17a1"£Analysis of 'Mech movements indicate they cycle their forces, repairing them, then replacing the damaged ones and attack all over again. Their commanding warrior is working them hard. I don't know when you'll a chance to repair anything serious so be frugal Commander {Commander.LastName}. Depending how many you take out and if you rescue the forward team you might have a chance at a re-arm and repair. No guarantees.*[
+9Gee that's not asking much... What does the AO look like? (:
+9c7661b557d5a82ad5568f95b
+YvonneHades¢*
+(
+Set BattleTech Camera Lock
+"HOLOGRAM‰
+
+9cc9fdc14f0ae53a88995116"˛Sorry XO this is all we can see. Their weather satellites are doubling as land recon relays and the resolution is horrible for something so fine as individual 'Mechs or vehicles.  Looking at their movement patterns, The Highwaymen don't have much time. 
+*V
+4Farah, can we boost the satellite's signal somehow?  (:
+9c10fa22c6a9de7de6d0906db
+FarahDefault¢Z
+/
+Set BattleTech Viewscreen Image"
+missionMap
+'
+Set BattleTech Camera Lock	"DEFAULTÕ
+
+9cfb358525586ac926a16ddb"πLet me try Commander but from up here we are also getting interference from the silica and metallic dust in the atmosphere. It will take time to readjust our scanners to filter it out. *a
+?Thanks Farah, Now uh... Commander Nunya? What do I address you? (:
+9ce7240d9169ed5674c63e74b
+FarahDefaultÍ
+
+9c34e5169df0816426d9d019"TCommander to my troops,  'Nunya' to my opponents, Yvonne to my friends. You choose.
+*e
+CGot it, I think we prefer Yvonne. 'Nunya...sounds like a warning.'  (:
+9c76822e4a1a58ebc58c31d3b
+YvonneHadesé
+
+9c8d80ac01eee8dbbc416713"ƒFarah, can we clean this image? Commander {Commander.LastName} do we go with what Farah has or do we take a step back and give Farah time to clean up the sensor inputs? Val and the others will need to take their chances if this turns sour. This already hardly enough to verify the AO.  I'm glad this is our choice Commander.*Ö
+c<color=#A2F685FF>[Flashpoint Decision: Looks like we can't wait.]</color> No time like the present. (:
+9ce23f3ce7f7e26ed7ec7f90*ç
+k<color=#A2F685FF>[Flashpoint Decision: Need more intel Darius.]</color>We need better intel before we drop. (:
+9c38a8d9d48452404b312d46b
+DariusDefault≥
+
+9c8cca7df9166cdabe473622"§I won't lie to you. This is going to be a tough assignment and together with what I have already paid for, I assure you, the rewards at the end will be more than sufficient to compensate for your damages. The 'Care Package' was just a teaser and there is more like that where that came from. *6
+ Yep... It's a duck. (:
+9c2988cb8e6fd3ff65a8d5bcb
+CabalD¢)
+'
+Set BattleTech Camera Lock	"DEFAULTã
+
+9cbda97b59978e8349a94180"ÇDuck...? What duck? 
+This still sounds like a another damsel rescue.
+
+Farah, please contact Commander Hades give her our regards. *" (:
+9c9fe57ab73b2a81dd1a3f11Pb
+DariusDefault¢0
+.
+Set BattleTech Viewscreen Image"	screenoffΩ
+
+9c41fcd540f94cac0480bd2e"√Agreed Commander. If we wait too long the target will slip through the trap. 
+Yang, cool running and fast. 
+Sumire, have the Drop Pods configured to land as close to the green marker as possible.*F
+$We'll get to you one way or another. (:
+9c5679a1468404aa30ed1cc7b
+DariusDefault˚
+
+9cda0c0d6afea1256867f300"‚I would suggest you expedite whatever you are doing. If you let the leader rally his followers these delays will place everything in jeopardy. The more 'Mechs we remove from the board now the less they will have to draw upon. *2
+Farah...Sensors? (:
+9caae12e49f6d1a7494e727db
+YvonneHades¢2
+0
+Set BattleTech Viewscreen Image"YvonneHadesÒ
+
+9ce40deb55bee36a48be656e"ÃJust keep something in reserve Commander. If the plan is to work, we need to kill their logistic advantage. That means hitting them hard at each of those three locations - without giving them any respite.*Ω
+Understood.ç
+ä
+Set BattleTech Tag0*.
+Get Preset Value (int)"SimGameAddRemove .*,
+Get Preset Value (int)"SimGameScope"ODS_1_continue_1 (:
+9cd8c8569489d8f66f1539f0b
+YvonneHades¢2
+0
+Set BattleTech Viewscreen Image"YvonneHadesò
+
+9c48fd334c50e5c9ba6fc2ae";Game faces people. This is going to be rough. Let's rumble!b
+DariusDefault¢)
+'
+Set BattleTech Camera Lock	"DEFAULTü
+
+9ce1b3cd09b70b574b92ae7e"ôI'm working as fast as I can. Sorry Boss, the atmospheric interference is severe Commander, this is the best image I can make out of the data available. *t
+RFarah, you're a veritable genius. Sumire... is this enough for DropPod navigation?  (:
+9cbf4f81baf6fa7c21a6b52eb
+FarahDefault¢\
+0
+Set BattleTech Viewscreen Image"missionMap2
+(
+Set BattleTech Camera Lock
+"HOLOGRAMÔ
+
+9c37e03c5ec9a8fb5abd6e75 "bWe can work with this Commander, I can guide the DropPods into their mess hall - if they even eat.*Ÿ
+'Buckle up people - we're going to work.ç
+ä
+Set BattleTech Tag0*.
+Get Preset Value (int)"SimGameAddRemove .*,
+Get Preset Value (int)"SimGameScope"ODS_1_Continue_1 !(:
+9ce262ec40aae74f9b9177ebb
+SumireDefaultï
+
+9c59deefff6700e646314bd5!"QAwesome Commander. Smith really doesn't appreciate, or fairly evaluate your Unit.*g
+ETo his detriment, I'd put my life in their hands any day... any time. $(:
+9c18821c05a189663fbaea41b
+YvonneHades¢)
+'
+Set BattleTech Camera Lock	"DEFAULT'
+
+9c8ade07f895283ec28daf0aˇˇˇˇˇˇˇˇˇ'
+
+9c8e8ed8afbdc0cdd8ec1e2aˇˇˇˇˇˇˇˇˇ≤
+
+9cb815e6d3b9c0f293dbe139$"NSorry for doubting your crew. You drive a tight ship Commander - good hunting.b
+YvonneHades¢2
+0
+Set BattleTech Viewscreen Image"YvonneHades"vL
+J
+Set BattleTech Fade3*1
+Get Preset Value (int)"SimGameFadeValues (:
+9c7d41cae9f1e88b414e55b1ÚIntro

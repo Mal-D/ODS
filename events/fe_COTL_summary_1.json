@@ -1,0 +1,108 @@
+{
+    "Description" : {
+        "Id" : "fe_COTL_summary_1",
+        "Name" : "Missed Locusts? The Story so far.",
+        "Details" : "\"Oh frak, Yang!\" Sumire broke the relative silence on the Command deck. Looking up from her NotePuter, \"Yang, remember that weird contract on [[DM.BaseDescriptionDefs[LoreAlloway],Alloway]], the one with all those damned <i>Locusts</i>? Well, I think we might be getting in on the wrong side history.\"\r\n\r\nYang glanced up from his book in the corner of the Command Deck. \r\n\r\n\"I'm still finding 'Mech bits in places where none should be, anyway, Mercenaries are always on someone's wrong side or another. Why should we be any different?\"\r\n\r\nFrantically swiping at her screen, Sumire seemed quite a bit agitated. \r\n\r\n\"I was just flicking through the various Newfeeds and it seems our Mr Smith has been a naughty little pirate. And, I think we're going to be tarred equally as he.\"",
+        "Icon" : "uixTxrSpot_ConferenceRoom_2.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1000,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [
+                "fp_locusts_not_played",
+                "fe_COTL_summary_1"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "fp_stingersRevenge_complete"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Reputation.MercenaryReviewBoard",
+                "op" : "GreaterThan",
+                "val" : 150,
+                "valueConstant" : "150"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Continue",
+                "Details" : "Continue",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "The Story so far.",
+                        "Details" : "Yang stopped his reading and looked over to Sumire who was getting more and more agitated.\r\n\r\n\"As far as anyone knows we haven't thrown stones at anyone important or done anything illegal, apart from kicking the pants of a bunch of itinerant <i>Locusts</i>, one jumped up Crab pilot and rescuing Valvaren from those Protectorate insects. What has got you so concerned?\"\r\n\r\n Sumire glanced around to see who else might hear her.\r\n\r\n\"I just caught a glance at the end of a newsfeed where the 'Silent Chapter' were mentioned in association with some sort of civilian massacre.\" \r\n\r\n\"So what? We're not involved with anything like that, not even remotely\". Yang settled back to continue his reading.\r\n\r\n\"No? not even when the Aurigan Coalition and the 'Silent Chapter' are mentioned in the same sentence? I need to find the subscription link and kick this up to the XO.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : ["fe_COTL_summary_1"],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [
+                                    "fp_locusts_not_played"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [],
+                            "Actions" : null,
+                            "ForceEvents" : [
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "fe_COTL_summary_2",
+                                    "MinDaysWait" : 2,
+                                    "MaxDaysWait" : 2,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

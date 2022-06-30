@@ -1,0 +1,210 @@
+{
+    "Description" : {
+        "Id" : "forcedevent_co_take_vals_call",
+        "Name" : "Taking Val's Call",
+        "Details" : "Valvaren's image ghosts and wavers in the holoprojection.\r\n\r\nDarius shakes his head, \"Here we go again!\"\r\n\r\n\"I know Darius, but let's hear her out first as I'm sure we'll hear from Smith in due course.\"\r\n\r\n{Commander.FirstName} there is something rotten in the Aurigan Coalition and we have evidence Smith is behind it. Briefly, the Aurigan Coalition has formed a unit to regain supposedly misappropriated 'Mechs and associated hardware as the Aurigan Directorate forces are defeated. I'm surprised you havn't already run foul of this 'Rampart Company'. \r\n\r\n\"It is larger than just me this time, but my sister, Yvonne, as well. {Commander.FirstName}, I'm sure you are still angry at me for leading you around last time and I wouldn't blame you.\"\r\n\r\nVal's voice drops to a whisper, \r\n\r\n\"Please {Commander.FirstName}, you're now our only hope to see justice delivered.\"",
+        "Icon" : "uixTxrSpot_ValsTransmission.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Continue Val's message",
+                "Details" : "(1)",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : [
+                            "ev_ODS_smith_yes"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Continue",
+                        "Details" : "Valvaren's now familiar but altered image fills the display space.\r\n\r\n \"This Rampart Company is using various deniable Mercenary companies hired to protect Coalition's boarders from pirates and also run their hardware recovery program. Mercenaries that Smith controls by stealth - much like yours I'm afraid. Yvonne and I have been gathering information on Smith's coersions as well as the assigned Mercenary group responsible for our familie's massacre on Bellerophon and orchestrated the betrayal of the 'Highwaymen'.  I'm sending you the location of Smith's holding on Pernik and a few 'better directed' funds. Yvonne and the remainder of the 'Highwaymen' are under siege and won't survive without your help. Yvonne has evidence that Smith has arranged this. There is more to tell but, not here or now. \r\n\r\nGear up {Commander.FirstName} but, please hurry.\"\r\n\r\n<<Message Ends>>",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "co_release_ODS"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "1500000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : [
+                                {
+                                    "Type" : "System_AddFlashpoint",
+                                    "value" : "fp_ODS_1_bloodyInsects",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        "starsystemdef_Pernik"
+                                    ]
+                                },
+                                {
+                                    "Type" : "System_ForceDropshipRoom",
+                                    "value" : "Ship",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        null
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" : [
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "forcedevent_co_take_smiths_call",
+                                    "MinDaysWait" : 1,
+                                    "MaxDaysWait" : 1,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                },
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "forcedevent_co_carePackage",
+                                    "MinDaysWait" : 10,
+                                    "MaxDaysWait" : 20,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Val knows you spoke to Smith first",
+                "Details" : "(2)",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : [
+                            "ev_ODS_val_yes"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Continue",
+                        "Details" : "I know you have spoken to Smith and I understand.  You are probably still miffed but I promise, there was good reason behind what I had to do.\r\n\r\n{Commander.FirstName}, we need to chat without Smith or the Chapter overhearing us. I don't know what he has told you but Yvonne has concrete evidence that whatever he is plotting will totally shift the balance of power in the Innersphere and the destruction of my sister's  Command, possibly her life. The 'Highwaymen' mean little to him. To Smith all problems are nails and you are just a hammer. He has to recover the evidence of his duplicitous activities Yvonne has discovered - the source of this information and evidence  is...interesting.\"\r\n\r\n\"Please {Commander.FirstName} Yvonne and I desperately need your help.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

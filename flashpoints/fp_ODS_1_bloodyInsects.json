@@ -1,0 +1,67 @@
+{
+    "Description" : {
+        "Id" : "fp_ODS_1_bloodyInsects",
+        "Name" : "Bloody Insects.",
+        "Details" : "The start of something a lot bigger. Tactical hint: Speed is armor. Speed is Life.",
+        "Icon" : "uixTxrSpot_OperationDeepStrike.png"
+    },
+    "Weight" : 1,
+    "InternalName" : "ODS_1_bloodyInsects",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 7,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : ["fp_stingersRevenge_complete"],
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "ODS_1_bloodyInsects_complete"
+                ],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : 
+            []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_pernik"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "SilentChapter"
+    ],
+    "TargetFaction" : "Protectorate",
+    "AllowRefitTime" : false,
+    "FlashpointLength" : "LONG",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_ODS_1_bloodyInsects",
+    "UseAvailableTimeoutOverride" : true,
+    "AvailableTimeout" : 1250,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 0,
+    "RewardCollectionID" : "itemCollection_loot_ODS_bloodyInsects_bare",
+    "UnitDropTonnageHint" : "Light",
+    "LanceDropTonnageHint" : "Mixed",
+    "FlashpointShortDescription" : "After the debacle on McEvan\u2019s Sacrifice my people have been constantly harassed by those creatures and they have my security forces hard pressed and under attack. I hope you have gathered sufficient resources - You'll need all of it.",
+    "FlashpointDescriberCastDefId" : "castDef_CabalD",
+    "Tags" : {
+        "items" : [
+            "OperationDeepStrike_Campaign",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

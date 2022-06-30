@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_rositaS",
+    "internalName" : "rositaS",
+    "firstName" : "Rosita",
+    "lastName" : "Sanchez",
+    "callsign" : "Knife",
+    "rank" : "Banderillero",
+    "gender" : "Female",
+    "faction" : "",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : true,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/Campaign - Operation Deep Strike/sprites/Portraits/guiTxrPort_theKnife.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_Thaddeus",
+    "internalName" : "Thaddeus",
+    "firstName" : "Thaddeus",
+    "lastName" : "Tread",
+    "callsign" : "Ambush",
+    "rank" : "Tau",
+    "gender" : "Male",
+    "faction" : "",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : true,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/Flashpoint - Call of the Locusts MKII/sprites/Portraits/guiTxrPort_ZombieLord_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

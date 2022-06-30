@@ -1,0 +1,56 @@
+{
+    "Description": {
+        "Id": "pilot_ODS_sanlucarB",
+        "Name": "sanlucarB",
+        "FirstName": "Sanlucar",
+        "LastName": "Barrameda",
+        "Callsign": "Bull",
+        "Gender": "Male",
+        "factionID": "barramedasBlackguards",
+        "Age": 36,
+        "Details": "",
+        "Icon": "guiTxrPort_Sanlucar"
+    },
+    "BaseGunnery": "5",
+    "BonusGunnery": 0,
+    "BasePiloting": "6",
+    "BonusPiloting": 0,
+    "BaseGuts": "8",
+    "BonusGuts": 0,
+    "BaseTactics": "5",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 0,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 3,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "m_pro07_allan",
+    "abilityDefNames": [
+        "TraitDefUnsteadySet60",
+		"TraitDefEvasiveChargeAddOne",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"TraitDefHealthAddOne",
+		"TraitDefRefireReduceOne",
+		"TraitDefOverheatAddFifteen",
+		"TraitDefHealthAddTwo",
+		"TraitDefRefireReduceTwo",
+		"AbilityDefGu5",
+		"AbilityDefGu8",
+		"AbilityDefG5"
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "pilot_npc_gladiator",
+            "pilot_npc_dynamic",
+            "pilot_npc_d8",
+			"BLACKLISTED",
+            "name_sanlucarB"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0
+}

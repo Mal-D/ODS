@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_geneviveN",
+    "internalName" : "geneviveN",
+    "firstName" : "Genevive",
+    "lastName" : "Nassar",
+    "callsign" : "Jammer",
+    "rank" : "MechWarrior",
+    "gender" : "Female",
+    "faction" : "",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : true,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/Campaign - Operation Deep Strike/sprites/Portraits/guiTxrPort_geneviveN_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

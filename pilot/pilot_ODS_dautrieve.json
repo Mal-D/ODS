@@ -1,0 +1,55 @@
+{
+    "Description": {
+        "Id": "pilot_ODS_dautrieve",
+        "Name": "CarsonD",
+        "FirstName": "Carson",
+        "LastName": "Daut'rieve",
+        "Callsign": "Kingfisher",
+        "Gender": "Male",
+        "factionID": "boneyardWranglers",
+        "Age": 30,
+        "Details": "Commander of the Boneyard Wranglers. Local militia life on Australia was boring and Carson looked to form his own Unit. He likes it hot in his KTO-19.",
+        "Icon": "guiTxrPort_dautrieve"
+    },
+    "BaseGunnery": "9",
+    "BonusGunnery": 0,
+    "BasePiloting": "5",
+    "BonusPiloting": 0,
+    "BaseGuts": "6",
+    "BonusGuts": 0,
+    "BaseTactics": "7",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 0,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 3,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "f_overload01",
+    "abilityDefNames": [
+		"TraitDefUnsteadySet60",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"TraitDefCalledShotImprove",
+		"TraitDefIndirectReduceTwo",
+		"TraitDefHealthAddOne",
+		"TraitDefRefireReduceOne",
+		"TraitDefOverheatAddFifteen",
+		"AbilityDefG5",
+		"AbilityDefG8",
+		"AbilityDefT5A"
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "pilot_npc_sharpshooter",
+            "pilot_npc_dynamic",
+            "pilot_npc_d9",
+            "name_CarsonD",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0
+}

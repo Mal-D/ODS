@@ -1,0 +1,131 @@
+{
+    "Description" : {
+        "Id" : "fe_ODS2_CallforHelp",
+        "Name" : "Call for Help",
+        "Details" : "Lately the comms desk has been running hot and Sumire once again taps the intecom on her headset. \"Darius, maybe we should all give up our quarters and bunk in on the Command Deck. That, or we are going to have to get an unlisted number out here. Seems everyone needs to make their opinions known.\"\r\n\r\nDarius's voice cracked in the overhead speakers - even he sounded tired.\"Is it really that important?\"\r\n\r\n\"Sorry XO, this is authorised by the Aurigan Signals Directorate and we know who that is.\"\r\n\r\nAgain Darius's voice echoed through out the DropShip.\r\n\r\n\"Command crew to the Command Deck, \n\nRepeat...Command crew to the Command Deck...again.\"",
+        "Icon" : "uixTxrSpot_auriganTransmission.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "fe_ODS2_CallforHelp"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Summon the Command Crew",
+                "Details" : "Summon the Command Crew.",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Command crew Summoned",
+                        "Details" : "\"Ok Sumire, we're all here\", as Commander {Commander.LastName} settled into the chair.\r\n\r\n\"Ok, pop it up on the main holodesk. \r\n\r\n\"We all know that Kamea doesn't like to be kept waiting. I'm sure this is about the 'Blackguards' situation somehow and the Rampart Company's fall from grace.\"\r\n\r\nThe quiet never lasts long.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "fe_ODS2_CallforHelp"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [
+                                    "ev_ODS_smith_yes",
+                                    "ev_ODS_val_yes",
+                                    "ODS_pickup_darleen_yes",
+                                    "ODS_pickup_darleen_no",
+                                    "ODS_pickup_blackbox_yes",
+                                    "ODS_pickup_blackbox_no",
+                                    "ODS_rescue_asset_yes",
+                                    "ODS_rescue_asset_no",
+                                    "ODS_rescue_obj_sucess",
+                                    "ODS_rescue_obj_fail"
+                                  ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_StartConversation",
+                                    "value" : "9cab32454f75d604dc1c25cd",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        "Aurigan Communications Directorate.",
+                                        "Call for Help",
+                                        "Ship",
+                                        null
+                                    ]
+                                },
+                                {
+                                    "Type" : "System_ForceDropshipRoom",
+                                    "value" : "Ship",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        null
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" : [
+                                {
+                                "Scope" : "Company",
+                                "EventID" : "fe_ODS2_goingUndercover",
+                                "MinDaysWait" : 10,
+                                "MaxDaysWait" : 20,
+                                "Probability" : 100,
+                                "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "UNPUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

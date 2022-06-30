@@ -1,0 +1,17 @@
+{
+    "Description" : {
+        "Id" : "SimGameStatDesc_GenCounter",
+        "Name" : "GenCounter",
+        "Details" : "General Counter.",
+        "Icon" : null
+    },
+    "setResult" : "You have received {RES_VALUE.ToCommaSeparatedString} counters.",
+    "positiveResult" : "You have added {RES_VALUE.ToCommaSeparatedString} a counter.",
+    "negativeResult" : "You have lost {RES_VALUE.ToCommaSeparatedString} a counter.",
+    "temporalSetResult" : "",
+    "temporalPositiveResult" : "",
+    "temporalNegativeResult" : "",
+    "infinitiveSetResult" : "",
+    "infinitivePositiveResult" : "",
+    "infinitiveNegativeResult" : ""
+}

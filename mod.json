@@ -1,0 +1,77 @@
+{
+    "Name": "Campaign_OperationDeepStrike",
+    "Enabled": true,
+
+	// * 1.1.0 holds only ODS - Bloody Insects.
+	// Many thanks to a lot of people that got this over the line and put up with my stupid questions. If I miss anyone here, please forgive it was not intentional.
+	// gnivler - for an amazing turn around time when issues were discovered.
+	// Don Zappo, Master Tonberry
+	// Other BT Mod authors Cwolf, and Jamie Wolf for their amazing development tools.
+	// Eck for help me understand the inner mysteries of BT.
+	// Amechwarrior for mentorship and guidance through out this development process.
+	// WolfBanes for showing me how deep the rabbit hole really goes - thanks for your advice on Stats and tags.
+	// CLa for keeping the update notification up to date.
+	// Buckle in and hang on - the ride is just beginning.
+	
+    "Version": "3.2.1-Release",
+	
+    "Author": "MalD",
+
+	"DependsOn": ["BTR-Overrides" , "Flashpoint_CallOfTheLocusts" , "ColourfulFlashPoints","Mission Control"],
+    "ConflictsWith": [],
+	
+	"DataAddendumEntries":[ 
+        { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
+	],
+    "Manifest": [
+	{ "Type": "CastDef", "Path": "cast" },
+	{ "Type": "CastDef", "Path": "../../Mods/Flashpoint - Call of the Locusts MKII/cast" },
+	{ "Type": "CastDef", "Path": "../../Mods/MissionControl/overrides/cast" },
+
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "MechDef", "Path": "mech" },
+
+	{ "Type": "ContractOverride", "Path": "contracts" }, 
+	{ "Type": "ContractOverride", "Path": "../../Mods/Flashpoint - Call of the Locusts MKII/contracts" },
+	{ "Type": "ContractOverride", "Path": "../../Mods/Campaign - Operation Deep Strike/contracts" },
+	{ "Type": "ContractOverride", "Path": "../../Mods/MissionControl/overrides/contracts" },
+
+	{ "Type": "LanceDef" , "Path": "../../Mods/Campaign - Operation Deep Strike/lances", "AddToDB": true },
+
+	{ "Type": "SimGameEventDef", "Path": "events" },
+
+	{ "Type": "FactionDef",  "Path": "factions/ods" },
+	{ "Type": "FactionDef",  "Path": "../../Mods/Flashpoint - Call of the Locusts MKII/factions/cotl" },
+	
+	{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
+	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
+	{ "Type": "FlashpointDef", "Path": "flashpoints" },
+
+	{ "Type": "SimGameStatDescDef", "Path": "../../Mods/MissionControl/overrides/simGameStatDesc" },
+
+	{ "Type": "HeraldryDef", "Path": "heraldry" },
+	{ "Type": "HeraldryDef", "Path": "../../Mods/Flashpoint - Call of the Locusts MKII/heraldry" },
+
+	{ "Type": "PilotDef", "Path": "pilot", "AddToDB": true },
+	{ "Type": "PilotDef", "Path": "../../Mods/Flashpoint - Call of the Locusts MKII/PilotDef", "AddToDB": true },
+
+	{ "Type": "BaseDescriptionDef", "Path": "lore" },
+
+	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+	{ "Type": "ItemCollectionDef", "Path": "../../Mods/BTR-Overrides/itemCollections" },
+
+	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
+
+	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "Sprite", "Path": "../../Mods/Flashpoint - Call of the Locusts MKII/sprites" },
+	{ "Type": "Sprite", "Path": "../../Mods/Campaign - Operation Deep Strike/sprites" },
+
+	{ "Type": "Texture2D",  "Path": "../../Mods/Flashpoint - Call of the Locusts MKII/textures", "AddToAddendum": "ConversationTexture" },
+	{ "Type": "Texture2D",  "Path": "../../Mods/Campaign - Operation Deep Strike/textures", "AddToAddendum": "ConversationTexture" },
+
+	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
+	
+	{ "Type": "SimGameStatDescDef", "Path": "simGameStatDesc", "AddToDB": true }
+    ]
+}

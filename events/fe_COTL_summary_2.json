@@ -1,0 +1,97 @@
+{
+    "Description" : {
+        "Id" : "fe_COTL_summary_2",
+        "Name" : "The Story so far..",
+        "Details" : "The next day, Sumire and Darius were about to take watch when Sumire called Darius attention her Noteputer.\r\n\r\n\"XO, I found the link to that weird news broadcast that mentions the the Arano Coalition and this mysterious Silent Chapter we've run across recently. Mind if I review this during our watch?\" \r\n\r\n\"Finish the watch change security checks first but, sure, Yang mentioned something earlier about our new 'benefactor'. Since our initial contact with that organisation, the Commander has been keeping a weather-eye on any mentions of Smith or his organisation especially after comms from Valvaren went dark.\"\r\n\r\nSumire shrugged.\"There is nothing about our recent activities but I've got this feeling we're about to find out." ,
+        "Icon" : "uixTxrSpot_SumireDarius.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+               "fp_stingersRevenge_complete",
+               "fe_COTL_summary_2"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Later during the watch",
+                "Details" : "",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Later during the watch...",
+                        "Details" : "Sumire looked up from her station. \"Darius, The newscast mentions that Smith's organisation was involved with a few behind the scenes 'off book' operations that left a whole lot of people dead. Women and Children - non Combatants - murdered. We should be very cautious if we are dealing with them in the future.\"\r\n\r\n\"Agreed, good work Sumire. We'll need to stay ahead of this and setup a comms alert I'm sure the Commander will want immediate notification if they contact us in the future.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : ["fe_COTL_summary_2"],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" :[],
+                            "Actions" : [],
+                            "ForceEvents" : [
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "fe_COTL_summary_3",
+                                    "MinDaysWait" : 1,
+                                    "MaxDaysWait" : 1,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

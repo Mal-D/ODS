@@ -1,0 +1,54 @@
+{
+    "ID" : "faction_BlackCaravel",
+    "Name" : "BlackCaravel",
+    "ShortName" : "Black Caravel",
+    "Description" : "This group is little better than the pirates they were supposed to be hunting and were always pushing the limits. The BC started as a frontier mercenary unit that got very rich playing both sides of the line. They accept exclusive and highly lucrative contracts with the Aurigan Coalition after several members were 'poached' for the Rampart Company.",
+    "Demonym" : "BC",
+    "Government" : "",
+    "Allies" :  [
+        "Locals",
+        "AuriganRestoration",
+        "SilentChapter"
+                ],
+    "Enemies" : [
+		"Liao",
+		"Davion",
+		"Steiner",
+		"Marik",
+		"Kurita",
+        "boneyardWranglers",
+        "AuriganPirates",
+        "hookwormsHighwaymen"
+    ],
+	"Presence": 0.1,
+    "ReputationStatements" : [
+        "Are you after a pat on the head?"
+    ],
+    "MissionSuccessStatements" : [ 
+		"You did your job"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"You did your job - just"
+    ],
+	"BadFaithFailureStatements" : [ 
+		"You didn't do your job. I hope you never darken my doorway again."
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_vivianB",
+    "DefaultRepresentativeCastDefId" : "castDef_vivianB",
+    "DataManager" : null,
+    "factionID" : "BlackCaravel",
+  	"icon" : "uixTxrLogo_blackCaravel",
+    "heraldryDefId" : "heraldrydef_blackCaravel",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

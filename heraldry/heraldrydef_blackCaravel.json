@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_blackCaravel",
+        "Name" : "Black Caravel",
+        "Details" : "A merc unit part of a nasty collection of entities with a very long reach.",    
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrIcon_blackCaravel",
+    "primaryMechColorID" : "Blue_04",
+    "secondaryMechColorID" : "Metallic_Silver",
+    "tertiaryMechColorID" : "BrightRed_02"
+}

@@ -1,0 +1,165 @@
+{
+    "identifier" : "Bkt_ODS_bloodyInsects_6_hostilesInbound",
+    "contents" : [
+        {
+            "words" : "Heads up! We have multiple drop sites plotted. Loading your tactical overlays now. We've picked up some random chatter. They don't seem too worried we can hear them.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_FarahDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Any useful information Farah?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_DariusDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "If I'm not mistaken our old 'friend' is making a return appearance.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_FarahDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+            },
+            {
+            "words" : "Ah. good old Bolthead. Can someone pleeeezzze stamp his ticket?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+           "selectedCastDefId" : "castDef_YangDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words": "We are harder to disable than you mere meatbags. The Master is becoming very adept at improving our performance and durability. This will be the way of the future even if I don't see it, others will tremble at even whispers of Manei Domini.",
+            "wordsColor": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "selectedCastDefId": "castDef_Thaddeus",
+            "emote": "Default",
+            "audioName": "NONE",
+            "cameraFocusGuid": "",
+            "cameraDistance": "Far",
+            "cameraHeight": "Default",
+            "revealRadius": -1
+        },
+        {
+            "words" : "Blah, blah, blah. Just more propaganda from religious fanatics. Farah, can you see what yo can do to stop them crashing our Comms?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+           "selectedCastDefId" : "castDef_YangDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Working on it XO. Though they are getting better at find crack in the security.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+           "selectedCastDefId" : "castDef_FarahDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Be alert to the two drop zones the first is here.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+           "selectedCastDefId" : "castDef_DariusDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "61699a08-1ed7-4ac3-b1f3-79b6b671c4ca",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "Commander we cannot get to you in time so, you will have to split your forces to distract these damned insects from shooting the buildings. I hope Val has sense enough to find shelter.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+           "selectedCastDefId" : "castDef_YvonneHades",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        },
+        {
+            "words" : "The second is here. Pick your tagets and watch your heat levels.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+           "selectedCastDefId" : "castDef_DariusDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+            "cameraFocusGuid" : "574928a1-ee1c-4cd1-a83f-d4a30aa1b05a",
+            "cameraDistance" : "Far",
+            "cameraHeight" : "Default",
+            "revealRadius" : -1
+        }
+            ]
+}

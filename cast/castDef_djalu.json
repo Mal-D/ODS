@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_djalu",
+    "internalName" : "djaluSaul",
+    "firstName" : "Djalu",
+    "lastName" : "Saul",
+    "callsign" : "Lightning",
+    "rank" : "Scout",
+    "gender" : "Female",
+    "faction" : "",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : true,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/Campaign - Operation Deep Strike/sprites/Portraits/guiTxrPort_djalu.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

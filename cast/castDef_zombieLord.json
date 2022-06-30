@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_zombieLord",
+    "internalName" : "zombieLord",
+    "firstName" : "Thaddeus",
+    "lastName" : "Tread",
+    "callsign" : "Ambush",
+    "rank" : "Zombie",
+    "gender" : "Male",
+    "faction" : "",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : true,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/Campaign - Operation Deep Strike/sprites/Portraits/guiTxrPort_ZombieLord_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

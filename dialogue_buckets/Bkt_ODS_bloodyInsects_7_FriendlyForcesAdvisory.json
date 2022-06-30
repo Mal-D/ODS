@@ -1,0 +1,165 @@
+{
+    "identifier" : "Bkt_ODS_bloodyInsects_7_FriendlyForcesAdvisory",
+    "contents" : [
+		{
+			"words" : "Hey Mr.Olivera, I have released some of my people to lend a hand. we're still mopping up here and these are all I can spare.",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_CabalDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+		"words" : "Bits and pieces and left overs I'm sorry 'XO'. There just wasn't enough time. The defence of the Storage complex has severely depleted our capability.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_YvonneHades",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+		"revealRadius" : -1
+		},
+		{
+			"words" : "Any help is better than facing what I think is coming, alone.",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+			"words" : "I wish we could do more... especially after what you have done for Val and I.",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_YvonneHades",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+			{
+				"words" : "Any help here is welcome. Commander we will have to make sure we keep some of them alive as well as ourselves.",
+				"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+				},
+				"selectedCastDefId" : "castDef_DariusDefault",
+				"emote" : "Default",
+				"audioName" : "NONE",
+				"cameraFocusGuid" : "",
+				"cameraDistance" : "Far",
+				"cameraHeight" : "Default",
+				"revealRadius" : -1
+			},
+	{
+		"words": "///INCOMMING TRANSMISSION - SECURITY PERIMETER BREACHED///",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_Computer",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words": "zzzzzt..zzzztt%@%$@ thi&^$attl&^$ is ove& b$&^waaaere$%ihad wil$ @#me we hav.. alread*&leftttt but..^%ner spher^%#ill kno$% #lake's will.",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_theMaster",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words": "/// COMMUNICATION TERMINATED ///",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_Computer",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words" : "Would you look at that, leaving already... I would love to know how his buddies are liking that?",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_YangDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+	},
+	{
+		"words" : "Be that as it may, we are still in danger of being overrun - 'Game Time' people. We leave - they don't!",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_YvonneHades",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+	}
+    ]
+}

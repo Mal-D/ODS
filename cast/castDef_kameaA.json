@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_kameaA",
+    "internalName" : "kameaA",
+    "firstName" : "Kamea",
+    "lastName" : "Arano",
+    "callsign" : "Countess",
+    "rank" : "Ali'i nui",
+    "gender" : "Female",
+    "faction" : "",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/Campaign - Operation Deep Strike/sprites/Portraits/guiTxrPort_KameaA.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "Description" : {
+        "Id" : "event_co_restDisturbed_retry",
+        "Name" : "Rest Disturbed - Again",
+        "Details" : "Beep... BeeBeep ... Beep... BeeBeep ...\r\nRealising that rest is a luxury and you're not going to get any soon.\r\n\"Ok Darius... I suppose they won't wait?\"  Darius looks just as harried as you feel. \"Sorry Commander but these message keep resending until read them.\" \r\n\r\n\"Stupid recall lists just won't leave you alone.\"\r\n\r\nBeep... BeeBeep...\r\n\"Ok let's see whos 'Life or Death' struggle we deal with first.",
+        "Icon" :  "uix_TxrSpot_captQuarters.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 500,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [
+                "event_co_restDisturbed_replay"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : [
+            {
+            "obj" : "Reputation.MercenaryReviewBoard",
+            "op" : "GreaterThan",
+            "val" : 150,
+            "valueConstant" : "150"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Listen to Smiths Message First",
+                "Details" : "Listen to Smiths Message",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Get Smiths Message first",
+                        "Details" : "Commander {Commander.LastName}, I need you to drop everything and come to Pernik. After the recent debacle on McEvan\u2019s Sacrifice, my holdings have been constantly harassed by those creatures wanting to know where Valvaren is and they have one of my companies under attack. We keep shooting them, but they just keep coming.\r\n\r\nPernik is a dusty little planet on the Periphery's spinward edge and I appreciate it will take time to get here. I have forwarded funds to recompense you should you need to break an existing contract or if not, consider it a down payment for Services yet to be rendered.\r\n\r\nMore to follow - please make all possible haste.\r\n\r\n<< message ends>>",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+
+                                    "ev_ODS_smith_yes"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : 
+                                [
+                                "event_co_restDisturbed_replay",
+                                "fp_the_interview_Complete"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : [
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "forcedevent_co_take_smiths_call",
+                                    "MinDaysWait" : 1,
+                                    "MaxDaysWait" : 1,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Get Vals Message First",
+                "Details" : "Get Valvaren's Message",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Listen to Val's Message",
+                        "Details" : "Commander {Commander.LastName}... {Commander.FirstName}... I know I was probably the last person you would want to talk to but when Smith kidnapped me after the time on McEvan\u2019s Sacrifice, I knew I had to do something to stop him. Unfortunately, this has drawn my sister Yvonne Hades into the light. Something we were trying to avoid. \r\n\r\nShe is the Commander of 'The Highwaymen' and is currently languishing on Pernik and is being constantly harassed by those creatures wanting to know where I am. She keeps shooting them, but they just keep coming.  Pernik is a dusty little planet in Marik space but if I am to stop her dying, I desparately need your help.\r\n\r\nI have managed to surreptitiously divert some of Smith's funds to your Company. Pernik is hot, so extra cooling might benifit.\r\n\r\nSorry this message is so short. More to follow - please hurry.\r\n\r\n<< message ends>>",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    
+                                    "ev_ODS_val_yes"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : 
+                                [
+                                "event_co_restDisturbed_replay",
+                                "fp_the_interview_Complete"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : [
+                                {
+                                    "Scope" : "Company",
+                                    "EventID" : "forcedevent_co_take_vals_call",
+                                    "MinDaysWait" : 1,
+                                    "MaxDaysWait" : 1,
+                                    "Probability" : 100,
+                                    "RetainPilot" : false
+                                }
+                            ],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL",
+    "OneTimeEvent" : false,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "identifier" : "Bkt_ODS_bloodyInsects_2_missionStart",
+    "contents" : [
+		{
+			"words" : "We can't dwell on the last mission. Every Atrocis 'Mech we take off the board is one less at the other end. This is a clearance action pure and simple. If we're lucky we can get a breather at the end of this.?",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+		"words" : "Do you think we got rid of that blowhard bolthead?",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_YangDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+		"revealRadius" : -1
+		},
+		{
+			"words" : "Don't know. That MechWarrior, or whatever it is now, just keeps popping up.",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+			"words" : "That's one 'cockroach' I wouldn't mind to personally see stomped.",
+			"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+			},
+			"selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+            "words" : "We're going to do this tough Commander, keep the incomming damage to a minimum and we just might see this one out. ",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+	    "selectedCastDefId" : "castDef_DariusDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+		},
+        {
+		"words" : "As soon as you have cleared the AO Commander, I'm ready.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_SumireDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+        },
+	{
+	    "words" : "Paint is easy to replace - Armor - not so much. I can't impress on you enough... Speed Commander! We do this one and move one to the next. No time for a coffee break.",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_DariusDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+	{
+		"words": "/// NETWORK PENETRATION ATTEMPT UNSUCCESSFUL ///",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_Computer",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words": "We're are keeping them out for now. That was the second Layer Encryption warning. I don't know how long I can ahead of these hacking attempts.",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_FarahDefault",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words" : "Concentrate on your end Farah and we'll see what we can do on the ground to keep them busy.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_DariusDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+	}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "Id" : "LoreBattleROM",
+    "Name" : "BattleROM",
+    "Details" :"BattleROM information can be reviewed as simple visual and audio data, but when plugged into a suitable simulator the information as well as the full monitor and instrument output can be played back and displayed exactly as the pilot saw it. The BattleROM records and stores hundreds of hours of all sensor data from a 'Mech, from its internal and external sensors and all communications.",
+    "Icon" : ""
+}

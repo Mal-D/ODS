@@ -1,0 +1,58 @@
+{
+    "Description": {
+        "Id": "pilot_ODS_geneviveN",
+        "Name": "geneviveN",
+        "FirstName": "Genevive",
+        "LastName": "Nassar",
+        "Callsign": "Jammer",
+        "Gender": "Female",
+        "factionID": "AuriganRestoration",
+        "Age": 28,
+        "Details": "Genevieve Nassar was born 2999 to a low-income family in the industrial district of Spencer's most densely populated port city, Plymouth Landing. Bouncing between mercenary commands, she built a strong reputation across the Frontier before eventually settling in with the Black Caravel. Jammer performed admirably in a series of combat deployments on Tiverton. This performance and her amazing ability to pilot her 'Mech brough her to the attention of the Rampart Company Commander. Captain Andris deceided to forego the normal recruitment process and 'Headhunted' her behind The Black Caravel commander Vivian Black. This, of course didn't go down too well with the Black Caravels.",
+        "Icon": "guiTxrPort_geneviveN_utr"
+    },
+    "BaseGunnery": "8",
+    "BonusGunnery": 0,
+    "BasePiloting": "6",
+    "BonusPiloting": 0,
+    "BaseGuts": "6",
+    "BonusGuts": 0,
+    "BaseTactics": "5",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 0,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 4,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "f_overload01",
+    "abilityDefNames": [
+		"TraitDefUnsteadySet60",
+		"TraitDefIndirectReduceOne",
+		"TraitDefHealthAddOne",
+		"TraitDefRefireReduceOne",
+		"TraitDefOverheatAddFifteen",
+		"TraitDefHealthAddTwo",
+		"TraitDefRefireReduceTwo",
+		"AbilityDefGu5",
+		"AbilityDefGu8",
+		"AbilityDefP5",
+        "AbilityDefG8"
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "BLACKLISTED",
+            "pilot_periphery",
+            "pilot_athletic",
+            "pilot_gladiator",
+            "pilot_military",
+            "pilot_brave",
+            "pilot_mechwarrior",
+            "name_geneviveN"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0
+}

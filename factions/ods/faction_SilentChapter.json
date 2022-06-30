@@ -1,0 +1,62 @@
+{
+    "ID" : "faction_SilentChapter",
+    "Name" : "Silent Chapter",
+    "ShortName" : "TSC",
+    "Description" : "The Silent Chapter is the 'Strong Arm' of the Indri Consortuim. Eventually would become the security force with Mr 'Dicky' Smith second-in-command. There is nothing, both legal and illicit, that Indri Consortuim are not involved in or out of their reach. The Silent Chapter enforces control of their slice of the Black Market in the Periphery using a variety of roving Pirate units or Mercenary units of 'dubious' reputation, and are HIGHLY selective about who works for them.",
+    "Demonym" : "TSC",
+    "Government" : "",
+    "Allies" : [
+        "AuriganPirates",
+        "ClusterPirates",
+        "CanopianPirates",
+		"Locals"
+    ],
+    "Enemies" : [
+        "TaurianConcordat",
+		"BaumannGroup",
+		"Liao",
+		"Davion",
+		"Steiner",
+		"Marik",
+		"Kurita",
+        "AuriganRestoration",
+        "AuriganDirectorate",
+        "Protectorate"
+    ],
+	"Presence": 0.6,
+    "ReputationStatements" : [
+        "Never known you to throw that Battle. Don't start now.",
+        "Do you call yourself a Company Commander? More like Bloody boy scout.",
+        "We're prepared to grant you might have had a bad day but, no more!",
+        "Drop this and we will think long and hard about using you in the future.",
+        "A bad run will degrade your usefulness to us.  Fail and we'll lose your HPG transmission Id.",
+        "Our regular 'Stable' of better MechWarriors are shaking their heads."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Now that's what we expect.  Everything completed.  Nice!"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"We're prepared to grant you might have had a bad day but, no more!"
+    ],
+	"BadFaithFailureStatements" : [ 
+		"Do you call yourself a Company Commander? More like Bloody boy scout."
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_scEnforcer",
+    "DefaultRepresentativeCastDefId" : "castDef_CabalD",
+    "DataManager" : null,
+    "factionID" : "SilentChapter",
+  	"icon" : "uixTxrLogo_TheSilentChapter",
+    "heraldryDefId" : "heraldrydef_TheSilentChapter",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "Description" : {
+        "Id" : "SimGameStatDesc_missionsCompleted",
+        "Name" : "missionsCompleted",
+        "Details" : "Missions Completed",
+        "Icon" : null
+    },
+    "setResult" : "",
+    "positiveResult" : "You have {RES_VALUE.ToCommaSeparatedString} successfully completed Missions.",
+    "negativeResult" : "",
+    "temporalSetResult" : "",
+    "temporalPositiveResult" : "",
+    "temporalNegativeResult" : "",
+    "infinitiveSetResult" : "",
+    "infinitivePositiveResult" : "",
+    "infinitiveNegativeResult" : ""
+}
