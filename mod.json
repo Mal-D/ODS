@@ -13,9 +13,9 @@
 	// CLa for keeping the update notification up to date.
 	// Buckle in and hang on - the ride is just beginning.
 	
-    "Version": "3.2.1-Release",
+    "Version": "4.0.1-Develop",
 	
-    "Author": "MalD",
+    "Author": "Mal-D",
 
 	"DependsOn": ["BTR-Overrides" , "Flashpoint_CallOfTheLocusts" , "ColourfulFlashPoints","Mission Control"],
     "ConflictsWith": [],
