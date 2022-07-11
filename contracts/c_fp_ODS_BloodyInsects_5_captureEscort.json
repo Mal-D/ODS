@@ -1115,7 +1115,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1148,7 +1148,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1181,7 +1181,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1214,7 +1214,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : [["spawn_poorly_maintained_50"]],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1264,7 +1264,7 @@
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_cicada_CDA-3C",
                         "unitTagSet" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "unitExcludedTagSet" : {
@@ -1305,7 +1305,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1338,7 +1338,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_25"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1371,7 +1371,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_25"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1429,7 +1429,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d8_gunner",
@@ -1495,7 +1495,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1528,7 +1528,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_25"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
