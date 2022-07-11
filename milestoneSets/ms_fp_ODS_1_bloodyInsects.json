@@ -395,7 +395,7 @@
                     "ForceEvents" :[
                         {
                             "Scope" : "Company",
-                            "EventID" : "forcedevent_co_attack_on_argo_3",
+                            "EventID" : "forcedevent_co_attack_on_argo_4",
                             "MinDaysWait" : 3,
                             "MaxDaysWait" : 5,
                             "Probability" : 100,
