@@ -211,10 +211,10 @@
                 "EncounterObjectGuid" : "4011a4c3-cba2-4d22-b2b3-3b19a3297ab9"
             },
             "name" : "Dialogue_MissionSuccess",
-            "overrideDialogueBucketId" : "",
+            "overrideDialogueBucketId" : "DialogBucketDef_ODS_bloodyInsects_2_success",
             "dialogueContent" : [
                 {
-                    "words" : "Nicely done, Commander {COMMANDER.LastName}. I see your hiatus has honed your skills somewhat. Color me impressed.",
+                    "words" : "Placeholdr ONLY",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
