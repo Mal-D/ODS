@@ -50,7 +50,7 @@
 			"revealRadius" : -1
 		},
 		{
-			"words" : "I've had just about enough of these <i>'Bloody Insects'</i>. Time to get out the [[DM.BaseDescriptionDefs[LoreMorteinBomb],Mortein Bombs]] my sweet.",
+			"words" : "I've had just about enough of these 'Bloody Insects'. Time to get out the [[DM.BaseDescriptionDefs[LoreMorteinBomb],Mortein Bombs]] my sweet.",
 			"wordsColor" : {
 				"r" : 1,
 				"g" : 1,

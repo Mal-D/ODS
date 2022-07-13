@@ -13,7 +13,7 @@
     "goodFaithStatementOverride" : null,
     "shortDescription" : "This is the last chance. Don't blow it like the last one. The {TEAM_TAR.FactionDef.Demonym} scouring this place for what my wife has discovered. What they have cannot leave with them, The Innersphere will change forever it it does. This is simple... destroy the convoy.",
     "longDescription" : "Commander, Let's make ammends with this one. Yvonne is joining you in Drop Slot one - keep her safe.",
-    "salvagePotential" : 32,
+    "salvagePotential" : 4,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
@@ -699,7 +699,7 @@
     "extractionOverrideList" : [],
     "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId" : "",
-    "disableNegotations" : false,
+    "disableNegotations" : true,
     "disableLanceConfiguration" : false,
     "disableCancelButton" : false,
     "disableAfterAction" : false,
@@ -708,8 +708,8 @@
     "useTravelCostPenalty" : false,
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
-    "negotiatedSalary" : 1,
-    "negotiatedSalvage" : 0,
+    "negotiatedSalary" : 0.0,
+    "negotiatedSalvage" : 0.0,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {

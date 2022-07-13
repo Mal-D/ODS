@@ -13,7 +13,7 @@
     "goodFaithStatementOverride" : null,
     "shortDescription" : "Get to the listening post and retrieve the object and also the waystation where Darleen is hiding. One without the other is useless. Don't dally Commander {Commander.LastName}, if they're captured, we might not get another opportunity. Getting captured by {TEAM_TAR.FactionDef.Demonym} forces it not something I would recommend. We need you to reach the facility where she's hiding and pick her up.",
     "longDescription" : "It must take some serious chutzpah to inflitrate their facility. We've seen them sacrifice a compromised facility. I'm impressed.",
-    "salvagePotential" : 20,
+    "salvagePotential" : 4,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
@@ -961,7 +961,7 @@
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
     "negotiatedSalary" : 0.0,
-    "negotiatedSalvage" : 1.0,
+    "negotiatedSalvage" : 0.0,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {

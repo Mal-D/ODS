@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_ODS_BloodyInsects_5_captureEscort",
-    "contractName" : "Bloody Insects V..",
+    "contractName" : "Bloody Insects V...",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 5,
     "difficultyUIModifier" : 1,
@@ -13,7 +13,7 @@
     "goodFaithStatementOverride" : null,
     "shortDescription" : "We have recovered Darleen from her forward obsevers post and we need to reunite her with her 'Mech as soon as possible.  We have been holding here for her return. She and the other scout needs to escape. There is an Atrocis force between you and the hidden 'Mechs. We have transmitted our hiding place and will stayed powered down until you reach us and hopefully other force has been destroyed.",
     "longDescription" : "I expect that if {TEAM_TAR.FactionDef.Demonym} forces locate our targets, they'll rally reinforcements from their forward command Post. We can't afford for that to happen.",
-    "salvagePotential" : 20,
+    "salvagePotential" : 4,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
@@ -636,8 +636,24 @@
             },
             "name" : "Dialogue_Interrupt_ConvoyMoving",
             "overrideDialogueBucketId" : "DialogBucketDef_ODS_bloodyInsects_5_ConvoyMoving",
-            "dialogueContent" : [
-                
+            "dialogueContent" : 
+            [
+                {
+                    "words" : "Signal from the {TEAM_EMP.FactionDef.Demonym} convoy leader, Commander. They're headed to the extraction point now. Keep them alive!",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                }
             ]
         },
         {
@@ -708,7 +724,7 @@
     ],
     "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId" : "",
-    "disableNegotations" : false,
+    "disableNegotations" : true,
     "disableLanceConfiguration" : false,
     "disableCancelButton" : false,
     "disableAfterAction" : false,
@@ -717,7 +733,7 @@
     "useTravelCostPenalty" : false,
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
-    "negotiatedSalary" : 1,
+    "negotiatedSalary" : 0,
     "negotiatedSalvage" : 0,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {

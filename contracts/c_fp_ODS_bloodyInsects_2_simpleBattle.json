@@ -13,7 +13,7 @@
     "goodFaithStatementOverride" : null,
     "shortDescription" : "Before we can lend any assisstance, we have to deny the OPFor the ability to resuppy. We have to take the force out quickly as the other don't have a lot of time. Destroying these will give them some breathing room.",
     "longDescription" : "I'm still not believing Smith. Get your war face on, Commander, there are others need our help.",
-    "salvagePotential" : 16,
+    "salvagePotential" : 4,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
@@ -295,7 +295,7 @@
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
     "negotiatedSalary" : 0.0,
-    "negotiatedSalvage" : 1.0,
+    "negotiatedSalvage" : 0.0,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {

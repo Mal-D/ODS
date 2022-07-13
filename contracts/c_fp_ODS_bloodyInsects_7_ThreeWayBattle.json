@@ -2,7 +2,7 @@
     "ID" : "c_fp_ODS_bloodyInsects_7_ThreeWayBattle",
     "contractName" : "Bloody Insects VII...",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 7,
+    "difficulty" : 6,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "MID_CAMPAIGN",
@@ -3309,7 +3309,7 @@
     ],
     "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId" : "",
-    "disableNegotations" : false,
+    "disableNegotations" : true,
     "disableLanceConfiguration" : false,
     "disableCancelButton" : false,
     "disableAfterAction" : false,
@@ -3318,8 +3318,8 @@
     "useTravelCostPenalty" : false,
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
-    "negotiatedSalary" : 1,
-    "negotiatedSalvage" : 0,
+    "negotiatedSalary" : 0,
+    "negotiatedSalvage" : 1,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {
