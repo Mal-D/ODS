@@ -376,7 +376,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9cd6354404e08c852f0d6107",
+                            "value" : "9cc92bea324c735b8bd79467",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} IV",
@@ -392,7 +392,17 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" :[],
+                    "ForceEvents" :
+                    [
+                        {
+                        "Scope" : "Company",
+                        "EventID" : "forcedevent_co_attack_on_argo_4",
+                        "MinDaysWait" : 3,
+                        "MaxDaysWait" : 5,
+                        "Probability" : 100,
+                        "RetainPilot" : false
+                        }
+                    ],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }

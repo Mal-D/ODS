@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_ODS_BloodyInsects_5_captureEscort",
-    "contractName" : "Bloody Insects V...",
+    "contractName" : "Bloody Insects V v3",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 5,
     "difficultyUIModifier" : 1,
@@ -13,7 +13,7 @@
     "goodFaithStatementOverride" : null,
     "shortDescription" : "We have recovered Darleen from her forward obsevers post and we need to reunite her with her 'Mech as soon as possible.  We have been holding here for her return. She and the other scout needs to escape. There is an Atrocis force between you and the hidden 'Mechs. We have transmitted our hiding place and will stayed powered down until you reach us and hopefully other force has been destroyed.",
     "longDescription" : "I expect that if {TEAM_TAR.FactionDef.Demonym} forces locate our targets, they'll rally reinforcements from their forward command Post. We can't afford for that to happen.",
-    "salvagePotential" : 4,
+    "salvagePotential" : 8,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
@@ -636,24 +636,8 @@
             },
             "name" : "Dialogue_Interrupt_ConvoyMoving",
             "overrideDialogueBucketId" : "DialogBucketDef_ODS_bloodyInsects_5_ConvoyMoving",
-            "dialogueContent" : 
-            [
-                {
-                    "words" : "Signal from the {TEAM_EMP.FactionDef.Demonym} convoy leader, Commander. They're headed to the extraction point now. Keep them alive!",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_DariusDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                }
+            "dialogueContent" : [
+                
             ]
         },
         {
@@ -1131,7 +1115,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_75"],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1197,7 +1181,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1230,7 +1214,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [["spawn_poorly_maintained_50"]],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1280,7 +1264,7 @@
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_cicada_CDA-3C",
                         "unitTagSet" : {
-                            "items" : ["spawn_poorly_maintained_75"],
+                            "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "unitExcludedTagSet" : {
@@ -1288,7 +1272,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_50"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1354,7 +1338,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_25"],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1387,7 +1371,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_25"],
+                            "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1445,7 +1429,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : ["spawn_poorly_maintained_25"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d8_gunner",
@@ -1478,7 +1462,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
@@ -1544,7 +1528,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_25"],
+                            "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_d4_gunner",
