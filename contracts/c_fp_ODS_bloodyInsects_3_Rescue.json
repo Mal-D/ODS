@@ -65,7 +65,7 @@
                     "Requirements" : null,
                     "AddedTags" : {
                         "items" : [
-                            "ODS_pickup_darleen_yes"
+                            "ODS_pickup_asset_yes"
                         ],
                         "tagSetSourceFile" : ""
                     },
@@ -85,7 +85,7 @@
                 "Requirements" : null,
                 "AddedTags" : {
                     "items" : [
-                        "ODS_pickup_darleen_no"
+                        "ODS_rescue_asset_fail"
                     ],
                     "tagSetSourceFile" : ""
                 },
@@ -166,10 +166,7 @@
                 "Scope" : "Company",
                 "Requirements" : null,
                 "AddedTags" : {
-                    "items" : [
-                        "ODS_rescue_asset_fail"
-                        
-                    ],
+                    "items" : ["ODS_rescue_asset_fail"],
                     "tagSetSourceFile" : ""
                 },
                 "RemovedTags" : {
@@ -205,9 +202,7 @@
                     "Scope" : "Company",
                     "Requirements" : null,
                     "AddedTags" : {
-                        "items" : [
-                            "ODS_pickup_blackbox_yes"
-                        ],
+                        "items" : ["ODS_pickup_obj_yes"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -225,9 +220,7 @@
                 "Scope" : "Company",
                 "Requirements" : null,
                 "AddedTags" : {
-                    "items" : [
-                        "ODS_pickup_blackbox_no"
-                    ],
+                    "items" : ["ODS_rescue_obj_fail"],
                     "tagSetSourceFile" : ""
                 },
                 "RemovedTags" : {

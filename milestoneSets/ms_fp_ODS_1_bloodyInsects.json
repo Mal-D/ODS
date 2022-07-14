@@ -393,16 +393,7 @@
                         }
                     ],
                     "ForceEvents" :
-                    [
-                        {
-                        "Scope" : "Company",
-                        "EventID" : "fe_ODS_attack_on_argo",
-                        "MinDaysWait" : 3,
-                        "MaxDaysWait" : 5,
-                        "Probability" : 100,
-                        "RetainPilot" : false
-                        }
-                    ],
+                    [],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -465,7 +456,8 @@
                         "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "ODS_rescue_obj_fail"
+                                "ODS_rescue_obj_fail",
+                                "ODS_rescue_asset_fail"
                             ],
                             "tagSetSourceFile" : ""
                         },
