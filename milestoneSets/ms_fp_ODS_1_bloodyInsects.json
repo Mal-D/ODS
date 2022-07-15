@@ -413,7 +413,7 @@
             "Requirements" : [],
             "Results" : [
                 {
-                    "Scope" : "Company",
+                    "Scope" : "Flashpoint",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -451,7 +451,7 @@
                     "ResultDuration" : 0
                 },
                 {
-                    "Scope" : "Company",
+                    "Scope" : "Flashpoint",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {

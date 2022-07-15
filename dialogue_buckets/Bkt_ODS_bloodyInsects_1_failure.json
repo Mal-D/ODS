@@ -169,7 +169,7 @@
 				"b" : 1,
 				"a" : 1
 			},
-			"selectedCastDefId" : "castDef_CabalDefault",
+			"selectedCastDefId" : "castDef_CabalD",
 			"emote" : "Default",
 			"audioName" : "NONE",
 			"cameraFocusGuid" : "",
@@ -178,7 +178,7 @@
 			"revealRadius" : -1
 		},
 		{
-			"words" : "Not our first rodeo Smith. We know where he is heading and he won't escape a second time.",
+			"words" : "Not our first rodeo Smith. We know where he is heading and will no time to repair.",
 			"wordsColor" : {
 				"r" : 1,
 				"g" : 1,
@@ -201,7 +201,7 @@
 				"b" : 1,
 				"a" : 1
 			},
-			"selectedCastDefId" : "castDef_CabalDefault",
+			"selectedCastDefId" : "castDef_CabalD",
 			"emote" : "Default",
 			"audioName" : "NONE",
 			"cameraFocusGuid" : "",
@@ -210,7 +210,7 @@
 			"revealRadius" : -1
 		},
 		{
-			"words" : "Have you ever tried to swat a gnat. Don't worry Smith he won't escape.",
+			"words" : "Have you ever tried to swat a gnat. Don't worry Smith he won't escape a second time.",
 			"wordsColor" : {
 				"r" : 1,
 				"g" : 1,

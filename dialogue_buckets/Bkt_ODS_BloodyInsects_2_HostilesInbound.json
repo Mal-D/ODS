@@ -2,7 +2,7 @@
     "identifier" : "Bkt_ODS_BloodyInsects_2_HostilesInbound",
     "contents" : [
         {
-            "words" : "Heads up, Commander—you've got hostile contacts inbound!",
+            "words" : "Heads up, Commander, you've got hostile contacts inbound!",
             "wordsColor" : {
                 "r" : 1,
                 "g" : 1,
@@ -39,7 +39,7 @@
 			"revealRadius" : -1
         },
         {
-            "words" : "Did you really think I would be that easy to deactivate? I have bought our fastest, deadliest machines to rid ourselves for your stench.",
+            "words" : "Did you really think I would be that easy to deactivate? I have bought our fastest, deadliest machines to rid ourselves of your stench.",
             "wordsColor" : {
                 "r" : 1,
                 "g" : 1,
