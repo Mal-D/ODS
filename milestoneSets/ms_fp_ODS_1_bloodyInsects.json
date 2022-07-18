@@ -413,15 +413,15 @@
             "Requirements" : [],
             "Results" : [
                 {
-                    "Scope" : "Flashpoint",
+                    "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Company",
+                        "Scope" : "Flashpoint",
                         "RequirementTags" : {
                             "items" : [
                                 "ODS_rescue_asset_success",
                                 "ODS_rescue_obj_success"
                             ],
-                            "tagSetSourceFile" : "Tags/CompanyTags"
+                            "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
                             "items" : [],
@@ -451,9 +451,9 @@
                     "ResultDuration" : 0
                 },
                 {
-                    "Scope" : "Flashpoint",
+                    "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Company",
+                        "Scope" : "Flashpoint",
                         "RequirementTags" : {
                             "items" : [
                                 "ODS_rescue_obj_fail",
@@ -484,9 +484,7 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : 
-                    []
-                ,
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
