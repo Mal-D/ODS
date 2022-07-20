@@ -393,7 +393,16 @@
                         }
                     ],
                     "ForceEvents" :
-                    [],
+                    [
+                        {
+                        "Scope" : "Company",
+                        "EventID" : "forcedevent_co_attack_on_argo_4",
+                        "MinDaysWait" : 1,
+                        "MaxDaysWait" : 1,
+                        "Probability" : 100,
+                        "RetainPilot" : false
+                        }
+                    ],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
