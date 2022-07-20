@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_ODS_bloodyInsects_4_ambushConvoy",
-    "contractName" : "Bloody Insects IV..",
+    "contractName" : "Bloody Insects IV",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 5,
     "difficultyUIModifier" : 0,
@@ -11,9 +11,9 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "This is the last chance. Don't blow it like the last one. The {TEAM_TAR.FactionDef.Demonym} scouring this place for what my wife has discovered. What they have cannot leave with them, The Innersphere will change forever it it does. This is simple... destroy the convoy.",
+    "shortDescription" : "This is the last chance. Don't blow it like the last one. The {TEAM_TAR.FactionDef.Demonym} cannot be allowed leave with anything. The Innersphere will change forever if they do. This is simple... destroy the convoy and get out.",
     "longDescription" : "Commander, Let's make ammends with this one. Yvonne is joining you in Drop Slot one - keep her safe.",
-    "salvagePotential" : 4,
+    "salvagePotential" : 8,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
@@ -78,16 +78,22 @@
                     "Scope" : "Company",
                     "Requirements" : null,
                     "AddedTags" : {
-                        "items" : [
-                            "ODS_1_rescue_sucess"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
+                    "Stats" : [
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "ContractBonusRewardPct",
+                            "value" : "0.25",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+                    ],
                     "Actions" : [],
                     "ForceEvents" : [],
                     "TemporaryResult" : false,
@@ -140,7 +146,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "4da99cf7-4950-4447-b55b-fcc2986adf75"
             },
-            "title" : "Stop Convoy from Escaping",
+            "title" : "Stop Convoy from reaching the EXFIL zone.",
             "description" : "The objective for preventing the enemy from reaching their escape point, if this happens the player will lose.",
             "isPrimary" : true,
             "OnSuccessResults" : [],
@@ -389,7 +395,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "<i>Commander</i>. we're waiting for you and this time the end will not be swift. It will be a lingering, painful extinguishment.",
+                    "words" : "We're waiting for you and this time the end will not be swift. It will be a lingering, painful extinguishment.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -480,7 +486,7 @@
             "overrideDialogueBucketId" : "DialogBucketDef_AmbushConvoy_EyesOnTarget",
             "dialogueContent" : [
                 {
-                    "words" : "We have a lock on the target vehicles. They should be to your front. Engage and destroy, Commander.",
+                    "words" : "Scanner analysis indicates they were rushed in repairing. Engage and destroy, Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -488,6 +494,22 @@
                         "a" : 1
                     },
                     "selectedCastDefId" : "castDef_DariusDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "We have a lock on the targets. They should be to your front. Engage and destroy, Commander.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_SumireDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -519,6 +541,22 @@
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
+                },
+                {
+                    "words" : "Leg damage will slow them Commander, it might prevent them from leaving.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
                 }
             ]
         },
@@ -530,7 +568,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "<i>Thank</i> you for shutting that idiot up, Commander. I don't know how much more I could take.",
+                    "words" : "Thankyou for shutting that idiot up, Commander. I don't know how much more I could take.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -546,14 +584,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "For a pilot, you talk an awfully big game. I wonder how your Leopard would look with a few missile holes in it?",
+                    "words" : "For a Frail, you talk an awfully big game. I wonder how your ship would look with a few more missile holes in it?",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_Contract_TheProfessional",
+                    "selectedCastDefId" : "castDef_theMaster",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -562,7 +600,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Oh for the love of-- Commander, that signal's coming from off-planet. They weren't even in that 'Mech.",
+                    "words" : "Oh for the love of-- Commander, prepare for incomming.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -603,7 +641,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Boss, those vehicles are about to leave the AO. If we lose them, we don't get paid.",
+                    "words" : "Boss, they are trying to leave the AO. Don't lose them now.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -628,7 +666,23 @@
             "overrideDialogueBucketId" : "DialogBucketDef_AmbushConvoy_PriTarDamaged",
             "dialogueContent" : [
                 {
-                    "words" : "One down. Keep engaging those threats and we'll be out of here. ",
+                    "words" : "Focus fire Commander, slow them down and pick them off one at a time.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "One down. Keep engaging and we'll soon be out of here. ",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -653,7 +707,7 @@
             "overrideDialogueBucketId" : "DialogBucketDef_Universal_Escape",
             "dialogueContent" : [
                 {
-                    "words" : "The convoy is finished, now get what mechs you have to the extraction point and we'll pull you out. Move quickly.",
+                    "words" : "The convoy is finished, now get what mechs you have to the extraction point. Smith has the Darleen's recovery team inbound.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1287,11 +1341,7 @@
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_cicada_CDA-3C",
                         "unitTagSet" : {
-                            "items" : [
-                                "wheels",
-                                "medium",
-                                "vehicle"
-                            ],
+                            "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "unitExcludedTagSet" : {
@@ -1324,9 +1374,7 @@
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_cicada_CDA-3C",
                         "unitTagSet" : {
-                            "items" : [
-                                "heavy"
-                            ],
+                            "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "unitExcludedTagSet" : {
