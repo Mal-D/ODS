@@ -415,11 +415,10 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "ODS_rescue_asset_success",
-                                "ODS_rescue_obj_success"
+                                "ODS1_path_A"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -453,16 +452,13 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
-                            "items" : [
-                                "ODS_rescue_obj_fail",
-                                "ODS_rescue_asset_fail"
-                            ],
+                            "items" : [],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
-                            "items" : [],
+                            "items" : ["ODS1_path_A"],
                             "tagSetSourceFile" : ""
                         },
                         "RequirementComparisons" : []
