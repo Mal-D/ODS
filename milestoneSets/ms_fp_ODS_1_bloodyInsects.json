@@ -393,16 +393,7 @@
                         }
                     ],
                     "ForceEvents" :
-                    [
-                        {
-                        "Scope" : "Company",
-                        "EventID" : "forcedevent_co_attack_on_argo_4",
-                        "MinDaysWait" : 0,
-                        "MaxDaysWait" : 0,
-                        "Probability" : 100,
-                        "RetainPilot" : false
-                        }
-                    ],
+                    [],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -454,7 +445,17 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : 
+                    [
+                        {
+                        "Scope" : "Company",
+                        "EventID" : "forcedevent_co_attack_on_argo_4",
+                        "MinDaysWait" : 0,
+                        "MaxDaysWait" : 0,
+                        "Probability" : 100,
+                        "RetainPilot" : false
+                        }
+                    ],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
@@ -463,11 +464,11 @@
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
-                            "items" : [],
+                            "items" : ["ODS1_path_B"],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
-                            "items" : ["ODS1_path_A"],
+                            "items" : [],
                             "tagSetSourceFile" : ""
                         },
                         "RequirementComparisons" : []
@@ -489,7 +490,17 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : null,
+                    "ForceEvents" : 
+                    [
+                        {
+                        "Scope" : "Company",
+                        "EventID" : "forcedevent_co_attack_on_argo_4",
+                        "MinDaysWait" : 0,
+                        "MaxDaysWait" : 0,
+                        "Probability" : 100,
+                        "RetainPilot" : false
+                        }
+                    ],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }

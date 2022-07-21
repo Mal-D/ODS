@@ -41,7 +41,6 @@
 	{ "Type": "SimGameEventDef", "Path": "events" },
 
 	{ "Type": "FactionDef",  "Path": "factions/ods" },
-	{ "Type": "FactionDef",  "Path": "../../Mods/Flashpoint - Call of the Locusts MKII/factions/cotl" },
 	
 	{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
 	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },

@@ -50,7 +50,7 @@
 			"revealRadius" : -1
 		},
 		{
-			"words" : "I've had just about enough of these 'Bloody Insects'. Time to get out the [[DM.BaseDescriptionDefs[LoreMorteinBomb],Mortein Bombs]] my sweet.",
+			"words" : "I've had just about enough of these 'Bloody Insects'. Time to get out the [[DM.BaseDescriptionDefs[LoreMorteinBombs],Mortein Bombs]] my sweet.",
 			"wordsColor" : {
 				"r" : 1,
 				"g" : 1,
@@ -74,6 +74,38 @@
 				"a" : 1
 			},
 			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "We've been doing this just as long as you Darius but, we will be welcome of the company.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_darleenD",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "Just come on home in one piece Dar'l.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_carsonD",
 			"emote" : "Default",
 			"audioName" : "NONE",
 			"cameraFocusGuid" : "",

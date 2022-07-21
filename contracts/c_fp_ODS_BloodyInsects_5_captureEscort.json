@@ -212,7 +212,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "3a4192be-2a53-4383-94ac-19c08883ea5f"
             },
-            "title" : "Time to boogie!",
+            "title" : "Time to do the LZ boogie!",
             "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
@@ -594,7 +594,7 @@
                 "EncounterObjectGuid" : "59fd62f4-62f0-4e14-b203-d796e231c3a8"
             },
             "name" : "Dialogue_HoldOutOrders",
-            "overrideDialogueBucketId" : "DialogBucketDef_CaptureEscort_InPositionHoldOut",
+            "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
                     "words" : "Hold at the extraction point. Sumire, where's the damned <i>Leopard</i>?",
@@ -648,7 +648,7 @@
             "overrideDialogueBucketId" : "DialogBucketDef_CaptureEscort_ObjSecured",
             "dialogueContent" : [
                 {
-                    "words" : "And they are away! Darleen and one other are safely out of the AO. Good work, Commander. Now get your remaining forces to the second evac zone for extraction there. ",
+                    "words" : "And they are away! Darleen and one other are safely out of the AO. Good work, Commander. Now get your remaining forces to the second evac zone for extraction.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
