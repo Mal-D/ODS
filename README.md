@@ -1,5 +1,13 @@
 # ODS
+**Installation**
 
+ODS is a single BattleTech Campaign with multiple Flashpoints. Each Epidode will be released as completed and each episode builds on the previous Epidode.
+
+**Please Note -**
+ODS Episode One - Bloody Insects - is the continuation of the 'Call of the Locusts' campaign and is assumed this campaign has been played and sucessfully completed.
+
+- Download the Github release - it will always be the latest.
+- if you have a previous version of ODS delete the directory ../Mods/Campaign in total
 ## Acknowledgements
 Many thanks to a lot of people that got this over the line and put up with my stupid questions. If I miss anyone here, please forgive it was not intentional.
 
