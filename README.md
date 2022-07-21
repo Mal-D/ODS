@@ -1,5 +1,18 @@
 # ODS
 
+## Acknowledgements
+Many thanks to a lot of people that got this over the line and put up with my stupid questions. If I miss anyone here, please forgive it was not intentional.
+
+- AMechwarrior. For starting this crazy journey into creating Flashpoints and sage advise to figure out what the hell I've done. 
+- gnivler - for an amazing turn around time when issues were discovered.
+- Don Zappo - for being the Guard at the gate. 
+- Master Tonberry for play testing and source of ideas (King of the Urbies fame.)
+- CWolf - from whom come forth all his wonderful tools that make creating Flashpoints possible. 
+- Jamie Wolf - from his amazing development editors that expose all my mistakes.
+- Other BT Mod authors who provide inspiration to keep this game alive and vital.
+- Eck for help me understand the inner mysteries of BT.
+- WolfBanes for showing me how deep the rabbit hole really goes - thanks for your advice on Stats and tags.
+- CLa for keeping the update notification up to date.
 
 ## Campaign - Operation Deep Strike
 
@@ -17,7 +30,10 @@ Sit down, strap in and hang on for a wide ride. Who or what are these things tha
 4.  Implemented Git repository to control releases. all future releases of episodes will match the major release number.
 
 
+**Buckle in and hang on - the ride is just beginning.**
+
 ## Episode Two.
 ### Follow the Money.
 
+v5.X.X
 To be announced but sufficed to say things are going from bad to worse...

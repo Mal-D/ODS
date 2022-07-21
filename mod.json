@@ -2,18 +2,7 @@
     "Name": "Campaign_OperationDeepStrike",
     "Enabled": true,
 
-	// * 1.1.0 holds only ODS - Bloody Insects.
-	// Many thanks to a lot of people that got this over the line and put up with my stupid questions. If I miss anyone here, please forgive it was not intentional.
-	// gnivler - for an amazing turn around time when issues were discovered.
-	// Don Zappo, Master Tonberry
-	// Other BT Mod authors Cwolf, and Jamie Wolf for their amazing development tools.
-	// Eck for help me understand the inner mysteries of BT.
-	// Amechwarrior for mentorship and guidance through out this development process.
-	// WolfBanes for showing me how deep the rabbit hole really goes - thanks for your advice on Stats and tags.
-	// CLa for keeping the update notification up to date.
-	// Buckle in and hang on - the ride is just beginning.
-	
-    "Version": "4.0.1-Develop",
+    "Version": "ODS-v4.0.0",
 	
     "Author": "Mal-D",
 
