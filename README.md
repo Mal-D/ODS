@@ -1,13 +1,25 @@
 # ODS
 **Installation**
 
-ODS is a single BattleTech Campaign with multiple Flashpoints. Each Epidode will be released as completed and each episode builds on the previous Epidode.
+ODS is a single BattleTech Campaign with multiple Flashpoints. Each Epidode will be released as completed and each episode builds on the previous Epidode. Save games are preserved.
 
 **Please Note -**
 ODS Episode One - Bloody Insects - is the continuation of the 'Call of the Locusts' campaign and is assumed this campaign has been played and sucessfully completed.
 
 - Download the Github release - it will always be the latest.
-- if you have a previous version of ODS delete the directory ../Mods/Campaign in total
+- If you have a previous version of ODS delete the directory <<directory>your game installation>/Mods/Campaign - Operation Deep Strike in total.
+- Copy the folder "Campaign - Operation Deep Strike" from the release package into the /Mods directory.
+- Copy the folder "ColourfulFlashpoints" in to the /Mods folder and accept the message to replace.
+###**Note**###
+this only replaces the settings.json file and only affects the display of ODS files. No Mod DLLs are contained herein.
+
+The Operation Deep Strike make several assumptions 
+- Campaign assumes you have previously played the Arano Restoration Campaign as some of the conversations mention characters and events in that Campaign.
+- You have completed the Call of the Locusts campaign. 
+- Your Company has an MRB rating of greater than 150.
+
+**This is not a new player friendly campaign.**
+
 ## Acknowledgements
 Many thanks to a lot of people that got this over the line and put up with my stupid questions. If I miss anyone here, please forgive it was not intentional.
 
@@ -32,6 +44,7 @@ Operation deep Strike is a multi-part Campaign.
 Sit down, strap in and hang on for a wide ride. Who or what are these things that 'Kidnapped' Valvaren and why is she stuck in the middle of this intrigue. Who is this 'Mr Smith' and what sort of a name is 'Silent Chapter' that keeps the company on tender hooks. These questions and more.
 
 ### v4.0.0 release
+If you played an initial release then this fixes will be of use.
 1.  Fixes that prevent the flashpoint proceeding past the 3rd Mision.
 2.  Adjusted balance to match the improvemts in the AI. Means you can't just stand a shoot any more.
 3.  Various and numerous spelling errors and story continuity improvements.
