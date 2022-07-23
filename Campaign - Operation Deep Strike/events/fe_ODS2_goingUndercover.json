@@ -1,0 +1,130 @@
+{
+    "Description" : {
+        "Id" : "fe_ODS2_goingUndercover",
+        "Name" : "Going Undercover",
+        "Details" : "\"Commander {Commander.LastName}. I hope this is the contact that we are waiting for. It's marked for Commander's eyes only and it has a Retina scan lock. Piping it through to your quarters now.\"\r\n\r\n\"Ok Sumire,\" The Commander sounded tired, \"Ready when you are - noteputer is online.\"\r\n\r\n//Scanning accepted//\r\n\r\nX:Y Coordinates X:-18.813  Y: -323.119\r\n\r\nWAIT until Contacted.\"",
+        "Icon" : "uixTxrSpot_SumireDarius.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "fe_ODS2_goingUndercover"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Piping The Message",
+                "Details" : "Piping The Message",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Message unlocked",
+                        "Details" : "The Commander sounded more than tired now,\"...and where or what the blue blazes is at X:-18.813  Y: -323.119.\"\r\n\r\nA slight pause. Sumire continues, \"Sorry Commander...Luckily, the Navigation computer still has access to old Star League maps and Mattisskogen - It's a rock, no indigenous life. Coreward and somewhere along the Free Worlds League and Copellan Confederation border.\"\r\n\r\n\"Good grief! This just gets better and better. Well, seems like we have an invite and a destination. Let's get moving in that direction shall we?\"\r\n\r\n\"Aye Commander.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "fe_ODS2_goingUndercover"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_AddFlashpoint",
+                                    "value" : "fp_ODS2_launch",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        "starsystemdef_Mattisskogen"
+                                    ]
+                                },
+                                {
+                                    "Type" : "System_ForceDropshipRoom",
+                                    "value" : "Ship",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        null
+                                    ]
+                                },
+                                {
+                                    "Type" : "System_StartConversation",
+                                    "value" : "9c8edafed403c5862c7aa01a",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        "Aurigan Communications Directorate.",
+                                        "The Choice",
+                                        "Ship",
+                                        null
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" :
+                            [
+                                {
+                                "Scope" : "Company",
+                                "EventID" : "fe_ODS2_nassarHookup",
+                                "MinDaysWait" : 5,
+                                "MaxDaysWait" : 10,
+                                "Probability" : 100,
+                                "RetainPilot" : false
+                                }
+                            ]
+                        ,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "UNPUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}
